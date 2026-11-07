@@ -4,7 +4,7 @@
 
 - All 38 numbered trails on the signposts: H (easier, 14 trails, 52 km), T (harder, 8 trails, 57 km), G (ridges above 1,600 m, 7 trails, 29 km) and MTB (bike, 9 trails, 56 km).
 - The park's 10 suggested day routes, with its official length, walking time and difficulty in each direction, translated from Macedonian.
-- Downloads: one GPX per trail, one per route, one with everything ([galicica-all-trails.gpx](https://galicica.finereli.com/gpx/galicica-all-trails.gpx)), plus [GeoJSON](https://galicica.finereli.com/data/galicica-trails.geojson) and [KML](https://galicica.finereli.com/data/galicica-trails.kml). Works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Google Earth and Garmin devices.
+- Downloads: one GPX per trail, one per route, one with everything ([galicica-all-trails.gpx](https://galicica.finereli.com/gpx/galicica-all-trails.gpx)), plus [GeoJSON](https://galicica.finereli.com/data/galicica-trails.geojson) and [KML](https://galicica.finereli.com/data/galicica-trails.kml). On a phone we recommend [Organic Maps](https://organicmaps.app) (free, open source, offline); the files also work in AlpineQuest, OsmAnd, Gaia GPS, Locus, Google Earth and Garmin devices.
 - Free, no account, no tracking, no ads.
 
 ## Why this exists

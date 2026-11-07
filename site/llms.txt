@@ -8,6 +8,7 @@ Key facts:
 - Trail codes match the park's signposts and guideposts.
 - Lines were drawn by hand by the park, not GPS-recorded; expect 20 to 50 m error. Conditions are as of 2020.
 - All trails in one GPX: https://galicica.finereli.com/gpx/galicica-all-trails.gpx (works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Garmin)
+- Recommended phone app: Organic Maps (https://organicmaps.app), free and open source, works offline (no signal on most of the mountain). Download the North Macedonia map on wifi, then open a trail's GPX with Organic Maps.
 - GeoJSON: https://galicica.finereli.com/data/galicica-trails.geojson   KML: https://galicica.finereli.com/data/galicica-trails.kml
 
 ## Trails (code: from - to, length, ascent in the drawn direction, highest point)

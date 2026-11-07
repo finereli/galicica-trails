@@ -403,7 +403,7 @@ def page(path, title, desc, body, jsonld=None, map_data=None, canonical=None, og
 </head>
 <body>
 <header class="top"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true"></span>Galičica trails</a>
-<nav><a href="/#trails">Trails</a><a href="/#routes">Routes</a><a href="/#downloads">Downloads</a><a href="/about/">About</a></nav></header>
+<nav><a href="/#trails">Trails</a><a href="/#routes">Routes</a><a href="/#phone">On your phone</a><a href="/about/">About</a></nav></header>
 {body}
 <footer class="foot"><div class="wrap">
 <p>Trail lines are from the Galičica National Park trail map (NP Galičica), as it stood in 2020. Places, guideposts and G-6 are from <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors. Map tiles from <a href="https://opentopomap.org">OpenTopoMap</a>. Elevations from SRTM. Trails change; check conditions locally and carry a map.</p>
@@ -460,7 +460,8 @@ def build_index(trails, routes, pois):
     <h1>Every marked trail in Galičica National Park</h1>
     <p class="lede">All {len(trails)} numbered trails on the mountain between Lake Ohrid and Lake Prespa, with a map, an elevation profile and a free GPX file for each. The park's own trail map disappeared from its website; this is that map, rescued from a 2020 archive and checked against OpenStreetMap.</p>
     <div class="legend" aria-label="Trail types (tick to show on the map)">{legend}</div>
-    <p class="cta"><a class="btn" href="/gpx/galicica-all-trails.gpx" download>Download all trails (GPX)</a> <a class="quiet" href="#downloads">Other formats</a></p>
+    <p class="cta"><a class="btn" href="/gpx/galicica-all-trails.gpx" download>Download all trails (GPX)</a> <a class="quiet" href="#phone">How to use it on your phone</a></p>
+    <p class="note">On a phone, open the file in <a href="https://organicmaps.app/">Organic Maps</a>: free, open source, and it works offline, which matters because there's no signal on most of the mountain.</p>
   </div>
 </section>
 
@@ -482,10 +483,22 @@ def build_index(trails, routes, pois):
   <ul class="routes">{rrows}</ul>
 </section>
 
+<section id="phone" class="block">
+  <h2>On your phone</h2>
+  <p class="note">We recommend <a href="https://organicmaps.app/">Organic Maps</a>. It's free and open source, has no ads or tracking, works fully offline, and draws its map from OpenStreetMap, which already shows most of the paths on Galičica. The park's trail lines on top tell you which path is which.</p>
+  <ol class="steps">
+    <li>Install Organic Maps from the <a href="https://apps.apple.com/app/organic-maps/id1567437057">App Store</a> or <a href="https://play.google.com/store/apps/details?id=app.organicmaps">Google Play</a> (or <a href="https://f-droid.org/packages/app.organicmaps/">F-Droid</a>).</li>
+    <li>While you're on wifi, open the app, find North Macedonia and download its map. Albania too if you'll walk near the border on the high ridge.</li>
+    <li>On this site, tap a trail's <b>GPX</b> button, or download all trails at once. Open the file with Organic Maps: on iPhone, from the Files app or the share sheet; on Android, tap the downloaded file or share it to Organic Maps. The trail appears as a list under Bookmarks and Tracks, with its guideposts as places.</li>
+    <li>On the mountain, your position shows on the trail with no signal at all. Tap the track for its length and elevation.</li>
+  </ol>
+  <p class="note">The same files work in AlpineQuest, OsmAnd, Gaia GPS, Locus and on Garmin devices if you already use one of those.</p>
+</section>
+
 <section id="downloads" class="block">
   <h2>Downloads</h2>
   <ul class="downloads">
-    <li><a href="/gpx/galicica-all-trails.gpx" download>galicica-all-trails.gpx</a>: every trail as its own track, colored by type, with elevations, plus the park guideposts, map boards and route trailheads as waypoints. Works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps and Garmin devices.</li>
+    <li><a href="/gpx/galicica-all-trails.gpx" download>galicica-all-trails.gpx</a>: every trail as its own track, colored by type, with elevations, plus the park guideposts, map boards and route trailheads as waypoints. Opens in Organic Maps, AlpineQuest, OsmAnd, Gaia GPS, Locus and on Garmin devices.</li>
     <li><a href="/data/galicica-trails.geojson" download>galicica-trails.geojson</a>: the same trails with their stats as properties, for QGIS, uMap or your own map.</li>
     <li><a href="/data/galicica-trails.kml" download>galicica-trails.kml</a>: for Google Earth and Google My Maps.</li>
     <li>One GPX per trail and per route, linked from each trail's page and from the table above.</li>
@@ -549,6 +562,7 @@ def build_trail(t, trails, pois):
 <p class="lede">{esc(trail_summary(t))}{' In Macedonian: ' + esc(', '.join(mk_bits)) + '.' if mk_bits else ''}</p>
 {facts}
 <p class="cta"><a class="btn" href="/gpx/{t['slug']}.gpx" download>Download GPX for {esc(t['code'])}</a> <a class="quiet" href="/gpx/galicica-all-trails.gpx" download>or all trails in one file</a></p>
+<p class="note">On a phone, open it in <a href="https://organicmaps.app/">Organic Maps</a> (free, open source, offline). <a href="/#phone">How</a>.</p>
 <div id="map" class="map map-trail" role="region" aria-label="Map of {esc(t['code'])}"></div>
 <h2>Elevation</h2>
 {profile_svg(t)}
@@ -593,6 +607,7 @@ def build_route(r, routes):
 <p class="lede">One of the ten day routes suggested by Galičica National Park. It links {', '.join(plate(c) for c in r['codes'])}. Start at {fmt_int(alts['frm_alt'])} m, finish at {fmt_int(alts['to_alt'])} m.</p>
 <table class="dirs"><thead><tr><th>Direction</th><th class="n">Length</th><th class="n">Time</th><th>Park rating</th></tr></thead><tbody>{dirs}</tbody></table>
 <p class="cta"><a class="btn" href="/gpx/route-{r['slug']}.gpx" download>Download GPX for this route</a></p>
+<p class="note">On a phone, open it in <a href="https://organicmaps.app/">Organic Maps</a> (free, open source, offline). <a href="/#phone">How</a>.</p>
 <div id="map" class="map map-trail" role="region" aria-label="Map of the route"></div>
 <h2>What the park says</h2>
 <p>{esc(r['text'])}</p>
@@ -652,6 +667,7 @@ def build_llms(trails, routes):
              "- Trail codes match the park's signposts and guideposts.",
              "- Lines were drawn by hand by the park, not GPS-recorded; expect 20 to 50 m error. Conditions are as of 2020.",
              f"- All trails in one GPX: {BASE}/gpx/galicica-all-trails.gpx (works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Garmin)",
+             "- Recommended phone app: Organic Maps (https://organicmaps.app), free and open source, works offline (no signal on most of the mountain). Download the North Macedonia map on wifi, then open a trail's GPX with Organic Maps.",
              f"- GeoJSON: {BASE}/data/galicica-trails.geojson   KML: {BASE}/data/galicica-trails.kml",
              "", "## Trails (code: from - to, length, ascent in the drawn direction, highest point)"]
     for t in trails:
