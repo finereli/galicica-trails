@@ -1,0 +1,61 @@
+{
+  "_note": "Named trail points that OSM doesn't have as places. Each has a source: an OSM guidepost or board name, or a park route start marker (park-map-2020.json).",
+  "places": [
+    {
+      "name": "Galičica pass (Lipova Livada)",
+      "mk": "превој Галичица, Липова Ливада",
+      "lat": 40.95378,
+      "lon": 20.82872,
+      "src": "OSM guidepost 'Lipova Livada'; park route 5 start marker"
+    },
+    {
+      "name": "the Galičica pass road",
+      "mk": "превој Галичица",
+      "lat": 40.95976,
+      "lon": 20.81371,
+      "src": "park route 8 start marker"
+    },
+    {
+      "name": "Sharbojca mountain house (Asan Djura)",
+      "mk": "планинска куќа Шарбојца, Асан Ѓура",
+      "lat": 41.02722,
+      "lon": 20.86555,
+      "src": "OSM guidepost 'Asan Djura' and P-28; park attraction 'Mountain House Sharbojca (Asan Gjura)'"
+    },
+    {
+      "name": "the Chereshnana junction",
+      "mk": "Черешнана",
+      "lat": 41.0462,
+      "lon": 20.83922,
+      "src": "OSM map board 'Galicica National Park - Chereshnana'"
+    },
+    {
+      "name": "Gorni Studenec spring",
+      "mk": "извор Горни Студенец",
+      "lat": 41.0764,
+      "lon": 20.84115,
+      "src": "OSM guidepost P-20"
+    },
+    {
+      "name": "the Ohrid visitor centre",
+      "mk": "Центар за посетители Охрид",
+      "lat": 41.10411,
+      "lon": 20.81988,
+      "src": "park route 1 start marker"
+    },
+    {
+      "name": "Dva Javora",
+      "mk": "Два Јавора",
+      "lat": 40.9873,
+      "lon": 20.8679,
+      "src": "park route 6 start marker"
+    },
+    {
+      "name": "Goga peak",
+      "mk": "врв Гога",
+      "lat": 41.03963,
+      "lon": 20.87299,
+      "src": "inferred: the high end (1,725 m) of G-4, the Goga leg of park route 9 'Oteshevo - Goga peak - Sharbojca'. The park gives Goga as 1,737 m. OSM has no peak here."
+    }
+  ]
+}

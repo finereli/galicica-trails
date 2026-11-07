@@ -1,0 +1,67 @@
+# Galičica trails (https://galicica.finereli.com)
+
+> Every marked trail in Galičica National Park (Галичица, also spelled Galicica or Galichica), North Macedonia, between Lake Ohrid and Lake Prespa. All 38 numbered trails (H easier, T harder, G ridges above 1,600 m, MTB bike) with maps, elevation profiles and free GPX, GeoJSON and KML downloads, plus the park's 10 suggested day routes.
+
+Key facts:
+- Free, no account, no ads. Open data and open source: https://github.com/finereli/galicica-trails
+- Source: the park's own web trail map (NP Galičica), archived by the Wayback Machine in October 2020, after the park's site lost the map. Cross-checked against OpenStreetMap (agrees within 50 m where both exist). G-6 uses OSM.
+- Trail codes match the park's signposts and guideposts.
+- Lines were drawn by hand by the park, not GPS-recorded; expect 20 to 50 m error. Conditions are as of 2020.
+- All trails in one GPX: https://galicica.finereli.com/gpx/galicica-all-trails.gpx (works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Garmin)
+- GeoJSON: https://galicica.finereli.com/data/galicica-trails.geojson   KML: https://galicica.finereli.com/data/galicica-trails.kml
+
+## Trails (code: from - to, length, ascent in the drawn direction, highest point)
+- H-1: near Velestovo - near Racha, 1.7 km, +15 m, top 1,001 m. https://galicica.finereli.com/trails/h-1/ GPX: https://galicica.finereli.com/gpx/h-1.gpx
+- H-2: near Racha - Sveti Trojca Arhierei, 1.1 km, +138 m, top 914 m. https://galicica.finereli.com/trails/h-2/ GPX: https://galicica.finereli.com/gpx/h-2.gpx
+- H-3: St Stephen cave - near Velestovo, 3.7 km, +346 m, top 1,057 m. https://galicica.finereli.com/trails/h-3/ GPX: https://galicica.finereli.com/gpx/h-3.gpx
+- H-4: the MTB-3 junction - the T-1 junction, 5.4 km, +46 m, top 1,498 m. https://galicica.finereli.com/trails/h-4/ GPX: https://galicica.finereli.com/gpx/h-4.gpx
+- H-5: Elshani - near Velestovo, 6.9 km, +303 m, top 1,181 m. https://galicica.finereli.com/trails/h-5/ GPX: https://galicica.finereli.com/gpx/h-5.gpx
+- H-6: Konjsko - above Elshani (1,469 m), 5.7 km, +426 m, top 1,507 m. https://galicica.finereli.com/trails/h-6/ GPX: https://galicica.finereli.com/gpx/h-6.gpx
+- H-7: Sharbojca mountain house (Asan Djura) - Samotska Dupka Cave, 2.6 km, +51 m, top 1,505 m. https://galicica.finereli.com/trails/h-7/ GPX: https://galicica.finereli.com/gpx/h-7.gpx
+- H-8: the H-9 junction - Elshani, 3.1 km, +74 m, top 946 m. https://galicica.finereli.com/trails/h-8/ GPX: https://galicica.finereli.com/gpx/h-8.gpx
+- H-9: Peshtani - the MTB-6 junction, 2.2 km, +231 m, top 930 m. https://galicica.finereli.com/trails/h-9/ GPX: https://galicica.finereli.com/gpx/h-9.gpx
+- H-10: below Lubanishta (696 m) - near Trpejca, 4.2 km, +167 m, top 867 m. https://galicica.finereli.com/trails/h-10/ GPX: https://galicica.finereli.com/gpx/h-10.gpx
+- H-11: above Trpejca (919 m) - above Lubanishta (1,056 m), 6.4 km, +450 m, top 1,103 m. https://galicica.finereli.com/trails/h-11/ GPX: https://galicica.finereli.com/gpx/h-11.gpx
+- H-12: near Leskoec - Leskoec, 1.0 km, +86 m, top 1,027 m. https://galicica.finereli.com/trails/h-12/ GPX: https://galicica.finereli.com/gpx/h-12.gpx
+- H-13: the MTB-9 junction - near Konjsko, 6.3 km, +124 m, top 923 m. https://galicica.finereli.com/trails/h-13/ GPX: https://galicica.finereli.com/gpx/h-13.gpx
+- H-14: near St Naum - St Parascheva, 1.7 km, +16 m, top 708 m. https://galicica.finereli.com/trails/h-14/ GPX: https://galicica.finereli.com/gpx/h-14.gpx
+- T-1: St Parascheva - the H-4 junction, 6.1 km, +682 m, top 1,457 m. https://galicica.finereli.com/trails/t-1/ GPX: https://galicica.finereli.com/gpx/t-1.gpx
+- T-2: Ramne - the H-4 junction, 3.5 km, +456 m, top 1,426 m. https://galicica.finereli.com/trails/t-2/ GPX: https://galicica.finereli.com/gpx/t-2.gpx
+- T-3: Velestovo - the MTB-3 junction, 4.0 km, +482 m, top 1,555 m. https://galicica.finereli.com/trails/t-3/ GPX: https://galicica.finereli.com/gpx/t-3.gpx
+- T-4: near Velestovo - above Leskoec (1,508 m), 14.0 km, +651 m, top 1,666 m. https://galicica.finereli.com/trails/t-4/ GPX: https://galicica.finereli.com/gpx/t-4.gpx
+- T-5: Elshani - the G-5 junction, 3.7 km, +654 m, top 1,547 m. https://galicica.finereli.com/trails/t-5/ GPX: https://galicica.finereli.com/gpx/t-5.gpx
+- T-6: near Oteshevo - the MTB-3 junction, 11.5 km, +677 m, top 1,524 m. https://galicica.finereli.com/trails/t-6/ GPX: https://galicica.finereli.com/gpx/t-6.gpx
+- T-7: the MTB-6 junction - the Galičica pass road, 4.5 km, +531 m, top 1,563 m. https://galicica.finereli.com/trails/t-7/ GPX: https://galicica.finereli.com/gpx/t-7.gpx
+- T-8: near Stenje (858 m) - above Leskoec (1,513 m), 10.1 km, +706 m, top 1,530 m. https://galicica.finereli.com/trails/t-8/ GPX: https://galicica.finereli.com/gpx/t-8.gpx
+- G-1: the H-4 junction - the T-3 junction, 4.7 km, +193 m, top 1,627 m. https://galicica.finereli.com/trails/g-1/ GPX: https://galicica.finereli.com/gpx/g-1.gpx
+- G-2: the T-3 junction - the Chereshnana junction, 3.9 km, +135 m, top 1,617 m. https://galicica.finereli.com/trails/g-2/ GPX: https://galicica.finereli.com/gpx/g-2.gpx
+- G-3: the H-5 junction - near Shipokno, 0.8 km, +22 m, top 1,209 m. https://galicica.finereli.com/trails/g-3/ GPX: https://galicica.finereli.com/gpx/g-3.gpx
+- G-4: Sharbojca mountain house (Asan Djura) - Goga peak, 2.7 km, +255 m, top 1,726 m. https://galicica.finereli.com/trails/g-4/ GPX: https://galicica.finereli.com/gpx/g-4.gpx
+- G-5: the T-4 junction - Galičica pass (Lipova Livada), 10.1 km, +658 m, top 1,975 m. https://galicica.finereli.com/trails/g-5/ GPX: https://galicica.finereli.com/gpx/g-5.gpx
+- G-6: Galičica pass (Lipova Livada) - Magaro peak, 5.2 km, +670 m, top 2,247 m. https://galicica.finereli.com/trails/g-6/ GPX: https://galicica.finereli.com/gpx/g-6.gpx
+- G-7: Dva Javora - Tomoros peak, 1.5 km, +186 m, top 1,666 m. https://galicica.finereli.com/trails/g-7/ GPX: https://galicica.finereli.com/gpx/g-7.gpx
+- MTB-1: Ramne - the Ohrid visitor centre, 2.5 km, +0 m, top 965 m. https://galicica.finereli.com/trails/mtb-1/ GPX: https://galicica.finereli.com/gpx/mtb-1.gpx
+- MTB-2: near Velestovo - Dva Javora, 19.0 km, +652 m, top 1,555 m. https://galicica.finereli.com/trails/mtb-2/ GPX: https://galicica.finereli.com/gpx/mtb-2.gpx
+- MTB-3: the MTB-2 junction - the MTB-2 junction, 7.3 km, +145 m, top 1,559 m. https://galicica.finereli.com/trails/mtb-3/ GPX: https://galicica.finereli.com/gpx/mtb-3.gpx
+- MTB-4: Gorica - Sv. Nikola, 3.6 km, +334 m, top 1,047 m. https://galicica.finereli.com/trails/mtb-4/ GPX: https://galicica.finereli.com/gpx/mtb-4.gpx
+- MTB-5: Gorica - Sv. Blagoveshtenie, 4.6 km, +172 m, top 859 m. https://galicica.finereli.com/trails/mtb-5/ GPX: https://galicica.finereli.com/gpx/mtb-5.gpx
+- MTB-6: near Peshtani (746 m) - above Trpejca (1,147 m), 6.3 km, +426 m, top 1,149 m. https://galicica.finereli.com/trails/mtb-6/ GPX: https://galicica.finereli.com/gpx/mtb-6.gpx
+- MTB-7: the MTB-2 junction - Tomoros peak, 2.7 km, +235 m, top 1,667 m. https://galicica.finereli.com/trails/mtb-7/ GPX: https://galicica.finereli.com/gpx/mtb-7.gpx
+- MTB-8: above Trpejca (996 m) - above Trpejca (889 m), 1.5 km, +24 m, top 997 m. https://galicica.finereli.com/trails/mtb-8/ GPX: https://galicica.finereli.com/gpx/mtb-8.gpx
+- MTB-9: St Cyril and Methodius Church - Konjsko, 8.3 km, +203 m, top 1,020 m. https://galicica.finereli.com/trails/mtb-9/ GPX: https://galicica.finereli.com/gpx/mtb-9.gpx
+
+## Park suggested routes (official length, time, difficulty per direction)
+- Velgoshti - Letnica - Ramne - Ohrid visitor centre (trails T-1, T-2, MTB-1). Velgoshti village, St Petka monastery to Ohrid visitor centre: 12.6 km, 5 h 15 min, moderate; Ohrid visitor centre to Velgoshti village, St Petka monastery: 12.6 km, 5 h, moderate. https://galicica.finereli.com/routes/velgoshti-letnica-ramne-ohrid/
+- Ramne - Letnica - Visok Vrv - Krstec - Velestovo (trails G-1, T-3, T-2, H-4). Ramne village to Velestovo village: 11.7 km, 5 h 15 min, moderate; Velestovo village to Ramne village: 11.7 km, 4 h 45 min, moderate. https://galicica.finereli.com/routes/ramne-letnica-visok-vrv-krstec-velestovo/
+- Velestovo - Krstec - Tri Mazhi peak - Studino - Elshani (trails G-2, T-3, T-4, T-5, G-5). Velestovo village to Elshani village: 16.8 km, 7 h, moderate; Elshani village to Velestovo village: 16.8 km, 7 h 30 min, moderate. https://galicica.finereli.com/routes/velestovo-krstec-tri-mazhi-studino-elshani/
+- Elshani - Bugarska Chuka - Lako Signoj - Galičica pass (trails T-5, G-5). Galičica pass (regional road R-504) to Elshani village: 13.3 km, 5 h 30 min, moderate; Elshani village to Galičica pass (regional road R-504): 13.3 km, 6 h 30 min, hard. https://galicica.finereli.com/routes/elshani-bugarska-chuka-lako-signoj-galicica-pass/
+- Galičica pass - Magaro peak - Galičica pass (trails G-6). Galičica pass (regional road R-504) to Galičica pass (regional road R-504): 7.7 km, 4 h 30 min, moderate. https://galicica.finereli.com/routes/galicica-pass-magaro-loop/
+- Dva Javora - Sharbojca house - Samotska Dupka cave - Velestovo (trails T-4, MTB-2, H-7). Dva Javora to Velestovo village: 14.2 km, 5 h 15 min, moderate; Velestovo village to Dva Javora: 14.2 km, 6 h 45 min, moderate. https://galicica.finereli.com/routes/dva-javora-sharbojca-samotska-dupka-velestovo/
+- Velestovo - Elen Vrv - Konjsko - Elshani (trails T-4, H-5, G-3). Velestovo village to Elshani village: 9.3 km, 2 h 30 min, easy; Elshani village to Velestovo village: 9.3 km, 3 h, easy. https://galicica.finereli.com/routes/velestovo-elen-vrv-konjsko-elshani/
+- Peshtani - St Spas - Galičica pass - Peshtani (trails T-7, MTB-6, H-9). Peshtani village to Galičica pass (regional road R-504): 8.3 km, 5 h 30 min, moderate; Galičica pass (regional road R-504) to Peshtani village: 8.3 km, 2 h 30 min, easy. https://galicica.finereli.com/routes/peshtani-st-spas-galicica-pass-peshtani/
+- Oteshevo - Goga peak - Sharbojca mountain house (trails MTB-3, T-6, G-4, MTB-2). Oteshevo to Sharbojca mountain house: 23.4 km, 9 h 45 min, very hard; Sharbojca mountain house to Oteshevo: 23.4 km, 5 h 45 min, hard. https://galicica.finereli.com/routes/oteshevo-goga-sharbojca/
+- Stenje - Konjsko along Lake Prespa (trails H-13). Stenje to Konjsko (Prespa): 8.4 km, 2 h 15 min, easy; Konjsko (Prespa) to Stenje: 8.4 km, 2 h 15 min, easy. https://galicica.finereli.com/routes/stenje-konjsko-prespa-shore/
+
+## Related
+- Family-sized hikes around Ohrid: https://ohridhikes.finereli.com
+- Report problems: https://github.com/finereli/galicica-trails/issues

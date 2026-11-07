@@ -1,0 +1,10 @@
+{
+  // Static site: everything in ./site is served as-is. No Worker code.
+  "name": "galicica-trails",
+  "compatibility_date": "2026-09-01",
+  "account_id": "7485eb8ab648601f411b650cd794bce3",
+  "assets": { "directory": "./site", "not_found_handling": "404-page" },
+  "routes": [
+    { "pattern": "galicica.finereli.com", "custom_domain": true }
+  ]
+}

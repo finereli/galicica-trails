@@ -1,0 +1,10 @@
+{
+  "_note": "Our own notes per trail, from walking them, and name overrides where the automatic naming falls short. 'walked' entries should say when and what we found.",
+  "T-3": {
+    "walked": "Walked on 8 October 2026 from Velestovo past Gorni Studenec spring to about 1,420 m. Our GPS track sits a median 2 m from this line. The spring is a pipe and a trough. Below it the path is stony; above it the marked path climbs through leafy beech forest on soft ground, steep in spots, and is much nicer walking."
+  },
+  "G-6": {
+    "end": "Magaro peak",
+    "loop_note": "G-6 climbs from the pass through beech forest, then loops over Magaro (2,254 m) and back down to the same path, so the GPX has two pieces: the approach and the loop."
+  }
+}

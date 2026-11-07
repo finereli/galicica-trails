@@ -1,0 +1,3099 @@
+[
+{
+"id": "node/293664138",
+"lat": 40.9180425,
+"lon": 20.7718578,
+"tags": {
+"int_name": "Lubaništa",
+"name": "Љубаништа",
+"name:al": "Lubanisht",
+"name:de": "Lubaništa",
+"name:en": "Lubanishta",
+"name:fr": "Lubaništa",
+"name:lt": "Ljubaništa",
+"name:mk": "Љубаништа",
+"place": "village",
+"wikipedia": "en:Ljubaništa"
+}
+},
+{
+"id": "node/305724830",
+"lat": 40.9605173,
+"lon": 20.7830495,
+"tags": {
+"int_name": "Trpejca",
+"name": "Трпејца",
+"name:de": "Trpejca",
+"name:en": "Trpejca",
+"name:fr": "Trpejca",
+"name:mk": "Трпејца",
+"place": "village"
+}
+},
+{
+"id": "node/390757439",
+"lat": 41.1155744,
+"lon": 20.791545,
+"tags": {
+"historic": "archaeological_site",
+"name": "Лихнид",
+"name:el": "Λύχνιδος",
+"name:en": "Lychnidos",
+"name:la": "Lychnidos",
+"name:mk": "Лихнид",
+"wikidata": "Q1456371",
+"wikipedia": "it:Lychnidos"
+}
+},
+{
+"id": "node/412399303",
+"lat": 41.01784,
+"lon": 20.8104255,
+"tags": {
+"int_name": "Peštani",
+"name": "Пештани",
+"name:en": "Peshtani",
+"name:lt": "Peštanis",
+"name:mk": "Пештани",
+"place": "village",
+"wikipedia": "mk:Пештани"
+}
+},
+{
+"id": "node/412399304",
+"lat": 40.9967268,
+"lon": 20.7981493,
+"tags": {
+"int_name": "Gradište",
+"name": "Градиште",
+"name:en": "Gradište",
+"name:lt": "Gradištas",
+"name:mk": "Градиште",
+"place": "locality",
+"wikidata": "Q3071723",
+"wikimedia_commons": "Category:Gradište, Kumanovo",
+"wikipedia": "mk:Градиште"
+}
+},
+{
+"id": "node/493900207",
+"lat": 40.9539377,
+"lon": 20.8125316,
+"tags": {
+"ele": "1570",
+"int_name": "Baba",
+"name": "Баба",
+"name:en": "Baba",
+"tourism": "viewpoint"
+}
+},
+{
+"id": "node/705498142",
+"lat": 41.1266757,
+"lon": 20.8442623,
+"tags": {
+"ele": "1014",
+"int_name": "Kulishta",
+"name": "Кулишта",
+"natural": "peak",
+"wikidata": "Q20935122"
+}
+},
+{
+"id": "node/712337260",
+"lat": 40.8971893,
+"lon": 20.7781294,
+"tags": {
+"ADMINSTATE": "COMMUNE",
+"Access_SDP": "No",
+"COMMUN_NAM": "Buçimas",
+"COM_ID": "7401",
+"DIS_ID": "74",
+"PREFECTURE": "KORÇË",
+"PRE_ID": "7",
+"Pop05": "210",
+"VILL_ID": "740101.00000000000",
+"addr:district": "BASHKIA POGRADEC",
+"alt_name:mk": "Пешкопија",
+"name": "Peshkëpi",
+"name:mk": "Пискупија",
+"place": "village",
+"postal_code": "7304",
+"source": "bing;mapbox;digitalglobe satellite;knowledge;wikipedia;ligji per ndarjen administrative nr.137 viti 2014;",
+"type": "Village",
+"wikidata": "Q12290673",
+"wikimedia_commons": "Category:Peshkëpi",
+"wikipedia": "sq:Peshkëpi"
+}
+},
+{
+"id": "node/712337341",
+"lat": 40.8989343,
+"lon": 20.9393111,
+"tags": {
+"COMMUN_NAM": "Pustec",
+"PREFECTURE": "KORÇË",
+"addr:district": "BASHKIA PUSTEC",
+"alt_name": "Tuminec",
+"alt_name:mk": "Tuminec",
+"district": "Korçë",
+"name": "Kallamas",
+"name:mk": "Туминец",
+"name:sq": "Kallamas",
+"place": "village",
+"population": "730",
+"prefecture": "Korçë",
+"source": "bing;mapbox;digitalglobe satellite;knowledge;wikipedia;ligji per ndarjen administrative nr.137 viti 2014;",
+"wikidata": "Q3300115",
+"wikimedia_commons": "Category:Tuminec-Kallamas",
+"wikipedia": "mk:Туминец"
+}
+},
+{
+"id": "node/712338362",
+"lat": 40.8944107,
+"lon": 20.9037581,
+"tags": {
+"COMMUN_NAM": "Pustec",
+"PREFECTURE": "KORÇË",
+"addr:district": "BASHKIA PUSTEC",
+"alt_name": "Gorna Gorica",
+"name": "Goricë e Madhe",
+"name:mk": "Горна Горица",
+"place": "village",
+"population": "576",
+"prefecture": "Korçë",
+"source": "bing;mapbox;digitalglobe satellite;knowledge;wikipedia;ligji per ndarjen administrative nr.137 viti 2014;",
+"wikidata": "Q3299032",
+"wikipedia": "en:Gorna Goricë"
+}
+},
+{
+"id": "node/1207216943",
+"lat": 41.1187289,
+"lon": 20.8055843,
+"tags": {
+"amenity": "place_of_worship",
+"check_date": "2025-07-09",
+"denomination": "sunni",
+"loc_name": "Крст џамија",
+"name": "Џамија Хаџи-Дургут",
+"name:en": "Haji Durgut Mosque",
+"religion": "muslim"
+}
+},
+{
+"id": "node/1630025337",
+"lat": 41.0744737,
+"lon": 20.9550464,
+"tags": {
+"int_name": "Evla",
+"name": "Евла",
+"name:en": "Evla",
+"place": "village",
+"source": "USGS"
+}
+},
+{
+"id": "node/1630025459",
+"lat": 41.1098024,
+"lon": 20.9725218,
+"tags": {
+"int_name": "Bolno",
+"name": "Болно",
+"name:en": "Bolno",
+"place": "village",
+"source": "USGS"
+}
+},
+{
+"id": "node/1810969277",
+"lat": 41.1175675,
+"lon": 20.813755,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"name": "Црква Св. Ѓoрѓијa",
+"name:en": "St. Gjorgjija Church",
+"name:mk": "Црква Св. Ѓoрѓијa",
+"religion": "christian"
+}
+},
+{
+"id": "node/1952751228",
+"lat": 41.1325606,
+"lon": 20.8373307,
+"tags": {
+"int_name": "Velgošti",
+"name": "Велгошти",
+"name:en": "Velgoshti",
+"place": "village"
+}
+},
+{
+"id": "node/1952751306",
+"lat": 41.0511826,
+"lon": 20.8135541,
+"tags": {
+"int_name": "Konjsko",
+"name": "Коњско",
+"name:en": "Konjsko",
+"place": "village"
+}
+},
+{
+"id": "node/1952751329",
+"lat": 41.109075,
+"lon": 20.8373672,
+"tags": {
+"int_name": "Ramne",
+"name": "Рамне",
+"name:en": "Ramne",
+"place": "village"
+}
+},
+{
+"id": "node/1952751339",
+"lat": 41.0832086,
+"lon": 20.8282044,
+"tags": {
+"int_name": "Velestovo",
+"name": "Велестово",
+"name:en": "Velestovo",
+"name:lt": "Velestovas",
+"place": "village"
+}
+},
+{
+"id": "node/1952751375",
+"lat": 41.0263101,
+"lon": 20.8165961,
+"tags": {
+"int_name": "Elšani",
+"name": "Елшани",
+"name:en": "Elshani",
+"name:lt": "Elšanis",
+"name:mk": "Елшани",
+"place": "village",
+"wikidata": "Q2740573",
+"wikimedia_commons": "Category:Elšani",
+"wikipedia": "mk:Елшани"
+}
+},
+{
+"id": "node/1952751435",
+"lat": 41.0764733,
+"lon": 20.8127338,
+"tags": {
+"int_name": "Šipokno",
+"name": "Шипокно",
+"name:en": "Shipokno",
+"name:lt": "Šipoknas",
+"place": "hamlet"
+}
+},
+{
+"id": "node/1979234594",
+"lat": 40.9109331,
+"lon": 20.9873524,
+"tags": {
+"alt_name": "Конско",
+"alt_name:mk": "Конско",
+"int_name": "Konjsko",
+"name": "Коњско",
+"name:en": "Konjsko",
+"name:mk": "Коњско",
+"place": "village"
+}
+},
+{
+"id": "node/1996492781",
+"lat": 41.1038114,
+"lon": 20.941727,
+"tags": {
+"historic": "ruins",
+"int_name": "Petrino",
+"name": "Петрино",
+"name:en": "Petrino"
+}
+},
+{
+"id": "node/2036472402",
+"lat": 41.0203281,
+"lon": 20.9437958,
+"tags": {
+"int_name": "Volkoderi",
+"name": "Волкодери",
+"name:en": "Volkoderi",
+"place": "village"
+}
+},
+{
+"id": "node/2036472411",
+"lat": 41.025048,
+"lon": 20.9901017,
+"tags": {
+"int_name": "Gorno Perovo",
+"name": "Горно Перово",
+"name:en": "Gorno Perovo",
+"place": "village"
+}
+},
+{
+"id": "node/2036541842",
+"lat": 41.0601023,
+"lon": 20.9554261,
+"tags": {
+"int_name": "Stipona",
+"name": "Стипона",
+"name:en": "Stipona",
+"place": "village"
+}
+},
+{
+"id": "node/2036541858",
+"lat": 40.9896026,
+"lon": 20.9152144,
+"tags": {
+"int_name": "Oteševo",
+"name": "Отешево",
+"name:en": "Oteshevo",
+"place": "village"
+}
+},
+{
+"id": "node/2036647194",
+"lat": 41.1404793,
+"lon": 20.7845671,
+"tags": {
+"int_name": "Orman",
+"name": "Орман",
+"name:en": "Orman",
+"place": "hamlet"
+}
+},
+{
+"id": "node/2036647195",
+"lat": 41.0477726,
+"lon": 20.8026871,
+"tags": {
+"int_name": "Lagadin",
+"name": "Лагадин",
+"name:en": "Lagadin",
+"name:lt": "Lagadinas",
+"place": "village",
+"wikidata": "Q3136390",
+"wikimedia_commons": "Category:Lagadin",
+"wikipedia": "mk:Лагадин"
+}
+},
+{
+"id": "node/2049648181",
+"lat": 41.124154,
+"lon": 20.8527535,
+"tags": {
+"int_name": "Chardachnica",
+"name": "Чардачница",
+"natural": "spring"
+}
+},
+{
+"id": "node/2051112580",
+"lat": 41.1024714,
+"lon": 20.8150049,
+"tags": {
+"name": "Билјанини Извори",
+"name:en": "Biljana's Springs",
+"natural": "spring",
+"tourism": "attraction"
+}
+},
+{
+"id": "node/2051568944",
+"lat": 41.0640472,
+"lon": 20.8045213,
+"tags": {
+"int_name": "Dolno Konjsko",
+"name": "Долно Коњско",
+"name:en": "Dolno Konjsko",
+"place": "village"
+}
+},
+{
+"id": "node/2051569106",
+"lat": 41.0912556,
+"lon": 20.8054912,
+"tags": {
+"int_name": "Gorica",
+"name": "Горица",
+"name:en": "Gorica",
+"name:lt": "Gorica",
+"place": "locality"
+}
+},
+{
+"id": "node/2051569337",
+"lat": 41.0738678,
+"lon": 20.8043628,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"int_name": "Sv. Stefan",
+"name": "Св. Стефан",
+"name:en": "St. Stephen",
+"name:lt": "Šv. Stefanas",
+"natural": "cave_entrance",
+"religion": "christian",
+"tourism": "attraction",
+"wikidata": "Q12293256",
+"wikimedia_commons": "Category:St. Stephen's Church (Šipokno)",
+"wikipedia": "mk:Црква „Св. Стефан“ - Панцир"
+}
+},
+{
+"id": "node/2063356925",
+"lat": 41.0123828,
+"lon": 20.9454119,
+"tags": {
+"int_name": "Šurlenci",
+"name": "Шурленци",
+"name:en": "Shurlenci",
+"place": "village"
+}
+},
+{
+"id": "node/2063370526",
+"lat": 40.9398174,
+"lon": 20.9116954,
+"tags": {
+"int_name": "Stenje",
+"name": "Стење",
+"name:en": "Stenje",
+"place": "village"
+}
+},
+{
+"id": "node/2437861439",
+"lat": 40.965271,
+"lon": 20.8113113,
+"tags": {
+"int_name": "Koritski Rigde",
+"name": "Коритски Рид",
+"name:en": "Koritski Rigde",
+"tourism": "viewpoint"
+}
+},
+{
+"id": "node/2437861480",
+"lat": 40.9671526,
+"lon": 20.8146854,
+"tags": {
+"amenity": "drinking_water",
+"ele": "1364",
+"name": "KORITA"
+}
+},
+{
+"id": "node/2461283085",
+"lat": 41.0622597,
+"lon": 20.9731966,
+"tags": {
+"int_name": "Gorno Dupeni",
+"name": "Горно Дупени",
+"name:en": "Gorno Dupeni",
+"place": "village",
+"source": "USGS"
+}
+},
+{
+"id": "node/2473337349",
+"lat": 41.0448056,
+"lon": 20.9575614,
+"tags": {
+"int_name": "Lavci",
+"name": "Лавци",
+"name:en": "Lavci",
+"place": "village",
+"source": "USGS"
+}
+},
+{
+"id": "node/2473337614",
+"lat": 41.0331132,
+"lon": 20.9608778,
+"tags": {
+"int_name": "Preljubje",
+"name": "Прељубје",
+"name:en": "Preljubje",
+"place": "village"
+}
+},
+{
+"id": "node/2545327948",
+"lat": 41.0140987,
+"lon": 20.9912822,
+"tags": {
+"int_name": "Dolno Perovo",
+"name": "Долно Перово",
+"name:en": "Dolno Perovo",
+"place": "village",
+"source": "Bing"
+}
+},
+{
+"id": "node/2545342051",
+"lat": 40.9765203,
+"lon": 20.9119981,
+"tags": {
+"historic": "monument",
+"name": "Преспанско Советување"
+}
+},
+{
+"id": "node/2613872317",
+"lat": 41.0763387,
+"lon": 20.8411339,
+"tags": {
+"amenity": "drinking_water",
+"int_name": "Gorni Studenec",
+"name": "Горни Студенец"
+}
+},
+{
+"id": "node/2617450350",
+"lat": 40.9575247,
+"lon": 20.8764289,
+"tags": {
+"int_name": "Leskoec",
+"is_in": "Macedonia",
+"name": "Лескоец",
+"name:de": "Leskoec",
+"name:en": "Leskoec",
+"name:fr": "Leskoec",
+"name:mk": "Лескоец",
+"place": "village"
+}
+},
+{
+"id": "node/2618004798",
+"lat": 41.0268349,
+"lon": 20.8461408,
+"tags": {
+"int_name": "Peštera Samotska Dupka",
+"name": "Пештера Самотска Дупка",
+"name:en": "Samotska Dupka Cave",
+"natural": "cave_entrance"
+}
+},
+{
+"id": "node/2618005128",
+"lat": 41.0507831,
+"lon": 20.8138454,
+"tags": {
+"ele": "1085",
+"information": "guidepost",
+"note": "H-5, H-6",
+"ref": "P-64",
+"tourism": "information"
+}
+},
+{
+"id": "node/2618005359",
+"lat": 41.0661435,
+"lon": 20.8456693,
+"tags": {
+"ele": "1625",
+"int_name": "Tri Maži",
+"name": "Три Мажи",
+"name:en": "Tri Mazhi",
+"name:mk": "Три Мажи",
+"natural": "peak",
+"wikidata": "Q20935195"
+}
+},
+{
+"id": "node/2618005456",
+"lat": 41.0763417,
+"lon": 20.846472,
+"tags": {
+"ele": "1495",
+"information": "guidepost",
+"ref": "P-19",
+"tourism": "information"
+}
+},
+{
+"id": "node/2618005461",
+"lat": 41.0763953,
+"lon": 20.8411451,
+"tags": {
+"ele": "1330",
+"information": "guidepost",
+"int_name": "Spring Gorni Studenec",
+"name": "Извор Горни Студенец",
+"ref": "P-20",
+"tourism": "information"
+}
+},
+{
+"id": "node/2618050038",
+"lat": 41.0815669,
+"lon": 20.8300697,
+"tags": {
+"ele": "1137",
+"information": "guidepost",
+"ref": "P-21",
+"tourism": "information"
+}
+},
+{
+"id": "node/2634251169",
+"lat": 40.9332094,
+"lon": 20.8205661,
+"tags": {
+"ele": "2255",
+"int_name": "Magaro",
+"name": "Магаро",
+"name:mk": "Магаро",
+"natural": "peak",
+"source": "placement derived from OpenCycleMap"
+}
+},
+{
+"id": "node/2759245083",
+"lat": 41.1126936,
+"lon": 20.7995376,
+"tags": {
+"artwork_type": "statue",
+"historic": "monument",
+"int_name": "Saint Klement of Ohrid",
+"name": "Свети Климент Охридски",
+"name:en": "Monument St. Clement Ohridski",
+"name:fr": "Saint Clément d’Ohrid",
+"name:tr": "Aziz Kliment Anıtı",
+"subject:wikidata": "Q158504",
+"subject:wikipedia": "mk:Свети Климент Охридски",
+"tourism": "artwork"
+}
+},
+{
+"id": "node/2759253188",
+"lat": 41.1120476,
+"lon": 20.799994,
+"tags": {
+"artwork_type": "statue",
+"historic": "monument",
+"int_name": "Saints Cyril and Methodius",
+"name": "Свети Кирил и Методиј",
+"name:de": "die Heiligen Kyril und Methodius",
+"name:en": "Monuments of Saints Cyril and Methodius",
+"name:fr": "Saints Cyrille et Méthode",
+"name:mk": "Saints Cyril and Methodius",
+"name:tr": "Aziz Kiril ve Aziz Metodius Anıtı",
+"tourism": "artwork",
+"wikidata": "Q239925",
+"wikimedia_commons": "Category:Saints Cyril and Methodius",
+"wikipedia": "mk:Св. Кирил и Методиј"
+}
+},
+{
+"id": "node/2759263738",
+"lat": 41.1122936,
+"lon": 20.7990467,
+"tags": {
+"artwork_type": "statue",
+"historic": "monument",
+"int_name": "Saint Naum",
+"name": "Свети Наум Охридски Чудотворец",
+"name:de": "Heiliger Naum von Ochrid",
+"name:en": "Monument to St. Naum of Ohrid",
+"name:fr": "Saint Naum",
+"name:tr": "Aziz Naum Anıtı",
+"subject:wikidata": "Q350061",
+"subject:wikipedia": "mk:Свети Наум Охридски Чудотворец",
+"tourism": "artwork"
+}
+},
+{
+"id": "node/2771047109",
+"lat": 41.101833,
+"lon": 20.847073,
+"tags": {
+"amenity": "drinking_water",
+"check_date": "2026-05-09",
+"fixme": "Aren't here two water points? An equipped drinking water source is guaranted to be 125 m north (marked with the help of GPS).",
+"name": "Ponik",
+"natural": "spring"
+}
+},
+{
+"id": "node/3011061682",
+"lat": 41.0272161,
+"lon": 20.8655541,
+"tags": {
+"ele": "1462",
+"information": "guidepost",
+"mtb": "yes",
+"name": "Asan Djura",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061683",
+"lat": 41.0461961,
+"lon": 20.8392189,
+"tags": {
+"description": "Map of Galicica National Park with all the hiking and mtb routes and table with their length",
+"hiking": "yes",
+"information": "map",
+"map_size": "region",
+"map_type": "topo",
+"mtb": "yes",
+"name": "Galicica National Park - Chereshnana",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061685",
+"lat": 41.0526085,
+"lon": 20.8126026,
+"tags": {
+"description": "Map of Galicica National Park with all the hiking and mtb routes and table with their length",
+"hiking": "yes",
+"information": "map",
+"map_size": "region",
+"map_type": "topo",
+"mtb": "yes",
+"name": "Galicica National Park - Konjsko",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061686",
+"lat": 41.0764159,
+"lon": 20.8029453,
+"tags": {
+"description": "Map of Galicica National Park with all the hiking and mtb routes and table with their length",
+"hiking": "yes",
+"information": "map",
+"map_size": "region",
+"map_type": "topo",
+"mtb": "yes",
+"name": "Galicica National Park",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061687",
+"lat": 41.0265726,
+"lon": 20.8458828,
+"tags": {
+"ele": "1457",
+"hiking": "yes",
+"information": "guidepost",
+"name": "Samotska Dupka Cave",
+"note": "H-7",
+"ref": "P-31",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061688",
+"lat": 41.0765177,
+"lon": 20.8029045,
+"tags": {
+"description": "Map of Galicica National Park with some information about Shipokno and St. Stephan",
+"hiking": "yes",
+"information": "map",
+"map_size": "region",
+"map_type": "topo",
+"mtb": "yes",
+"name": "Shipokno/St. Stephan",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061689",
+"lat": 41.052788,
+"lon": 20.8128079,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "orthodox",
+"name": "Sv. Mina",
+"religion": "christian"
+}
+},
+{
+"id": "node/3011061690",
+"lat": 41.0596796,
+"lon": 20.8135106,
+"tags": {
+"denomination": "orthodox",
+"historic": "wayside_shrine",
+"name": "Sv. Nikola",
+"religion": "christian",
+"tourism": "attraction"
+}
+},
+{
+"id": "node/3011061699",
+"lat": 41.0265537,
+"lon": 20.8459251,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061702",
+"lat": 41.0266633,
+"lon": 20.8468635,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061711",
+"lat": 41.0271651,
+"lon": 20.843387,
+"tags": {
+"ele": "1419",
+"hiking": "yes",
+"information": "guidepost",
+"note": "T-4, H-7",
+"ref": "P-32",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011061728",
+"lat": 41.0277379,
+"lon": 20.8552134,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065633",
+"lat": 41.0278524,
+"lon": 20.8656871,
+"tags": {
+"ele": "1463",
+"hiking": "yes",
+"information": "guidepost",
+"note": "G-4",
+"ref": "P-28",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065643",
+"lat": 41.0281558,
+"lon": 20.8620585,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065649",
+"lat": 41.0283259,
+"lon": 20.84903,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065664",
+"lat": 41.0297707,
+"lon": 20.8522231,
+"tags": {
+"ele": "1477",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-6, H-7",
+"ref": "P-30",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065697",
+"lat": 41.0459783,
+"lon": 20.8407279,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-6, H-4, G-2; guidepost destroyed - signs on the ground with proper directions.",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065698",
+"lat": 41.0462678,
+"lon": 20.8391827,
+"tags": {
+"ele": "1364",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-6, T-4",
+"ref": "P-39",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065699",
+"lat": 41.0467921,
+"lon": 20.8388375,
+"tags": {
+"ele": "1377",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-6, T-4",
+"ref": "P-40",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065700",
+"lat": 41.0505598,
+"lon": 20.8136974,
+"tags": {
+"ele": "1085",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-5",
+"ref": "P-65",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065702",
+"lat": 41.0591473,
+"lon": 20.8058473,
+"tags": {
+"ele": "815",
+"information": "guidepost",
+"mtb": "yes",
+"note": "MTB-4, MTB-5",
+"ref": "P-67",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065703",
+"lat": 41.0596931,
+"lon": 20.8133735,
+"tags": {
+"ele": "1042",
+"information": "guidepost",
+"mtb": "yes",
+"note": "MTB-4, MTB-5",
+"ref": "P-66",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065965",
+"lat": 41.0722893,
+"lon": 20.8074989,
+"tags": {
+"ele": "824",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-3",
+"ref": "P-54",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065975",
+"lat": 41.0729279,
+"lon": 20.8072824,
+"tags": {
+"ele": "824",
+"hiking": "yes",
+"information": "guidepost",
+"note": "H-3",
+"ref": "P-57",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011065996",
+"lat": 41.0732296,
+"lon": 20.8113919,
+"tags": {
+"ele": "906",
+"hiking": "yes",
+"information": "guidepost",
+"mtb": "yes",
+"note": "H-3, MTB-4",
+"ref": "P-52",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011066015",
+"lat": 41.0736319,
+"lon": 20.8110514,
+"tags": {
+"ele": "898",
+"hiking": "yes",
+"information": "guidepost",
+"mtb": "yes",
+"note": "H-3, MTB-4",
+"ref": "P-53",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011066018",
+"lat": 41.0738363,
+"lon": 20.807665,
+"tags": {
+"ele": "824",
+"information": "guidepost",
+"mtb": "yes",
+"note": "MTB-5",
+"ref": "P-55",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011066243",
+"lat": 41.0752215,
+"lon": 20.8049886,
+"tags": {
+"ele": "779",
+"hiking": "yes",
+"information": "guidepost",
+"note": "just an arrow to Sv. Stefan Manastir, but with standard head board with ref number and information about m.a.s.l. and GPS coordinates",
+"ref": "P-59",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011066254",
+"lat": 41.0772877,
+"lon": 20.8097802,
+"tags": {
+"ele": "870",
+"hiking": "yes",
+"information": "guidepost",
+"mtb": "yes",
+"note": "MTB-4, MTB-5",
+"ref": "P-56",
+"tourism": "information"
+}
+},
+{
+"id": "node/3011066257",
+"lat": 41.116488,
+"lon": 20.800119,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "sunni",
+"name": "Зејнел Абидин-пашина џамија",
+"name:en": "Zeynel Abidin Pasha Mosque",
+"name:tr": "Pir Muhammed Mehmed Hayati Halveti Dergah ve Türbesi",
+"religion": "muslim"
+}
+},
+{
+"id": "node/3053090986",
+"lat": 40.9010373,
+"lon": 20.720156,
+"tags": {
+"ADMINSTATE": "COMMUNE",
+"Access_SDP": "No",
+"COMMUN_NAM": "Buçimas",
+"COM_ID": "7401",
+"DIS_ID": "74",
+"PREFECTURE": "KORÇË",
+"PRE_ID": "7",
+"Pop05": "464",
+"VILL_ID": "740102.00000000000",
+"addr:district": "BASHKIA POGRADEC",
+"alt_name:mk": "Тушемиште",
+"name": "Tushemisht",
+"name:mk": "Тушемишта",
+"place": "village",
+"postal_code": "7304",
+"source": "bing;mapbox;digitalglobe satellite;knowledge;wikipedia;ligji per ndarjen administrative nr.137 viti 2014",
+"type": "Village",
+"wikidata": "Q7856763",
+"wikimedia_commons": "Category:Tushemisht",
+"wikipedia": "en:Tushemisht"
+}
+},
+{
+"id": "node/3772116742",
+"lat": 41.0148316,
+"lon": 20.8457874,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3772116743",
+"lat": 41.005421,
+"lon": 20.8522826,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3772116744",
+"lat": 41.0030816,
+"lon": 20.8527945,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/3772116749",
+"lat": 40.9796089,
+"lon": 20.8621903,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/4124437189",
+"lat": 40.9959098,
+"lon": 20.7981425,
+"tags": {
+"name": "Bay of Bones Viewpoint",
+"name:mk": "видиковец на Заливот на Коските",
+"tourism": "viewpoint"
+}
+},
+{
+"id": "node/4171974302",
+"lat": 41.1365851,
+"lon": 20.862981,
+"tags": {
+"ele": "1433",
+"name": "Греда",
+"natural": "peak",
+"wikidata": "Q20935100"
+}
+},
+{
+"id": "node/4351691820",
+"lat": 40.9142149,
+"lon": 20.7412554,
+"tags": {
+"historic": "memorial",
+"memorial": "statue",
+"name": "Свети Наум",
+"name:mk": "Свети Наум",
+"name:ru": "Святой Наум",
+"name:sq": "Shën Naumi"
+}
+},
+{
+"id": "node/4485860353",
+"lat": 40.9540034,
+"lon": 20.812518,
+"tags": {
+"information": "board",
+"tourism": "information"
+}
+},
+{
+"id": "node/4485860358",
+"lat": 40.9760769,
+"lon": 20.8322861,
+"tags": {
+"ele": "1924",
+"int_name": "Bajrače",
+"name": "Бајраче",
+"name:en": "Bajrače",
+"name:mk": "Бајраче",
+"natural": "peak",
+"wikidata": "Q20935268"
+}
+},
+{
+"id": "node/4485913837",
+"lat": 41.0937433,
+"lon": 20.8120178,
+"tags": {
+"int_name": "Racha",
+"name": "Рача",
+"name:en": "Racha",
+"place": "village"
+}
+},
+{
+"id": "node/4842170821",
+"lat": 41.1249175,
+"lon": 20.8534916,
+"tags": {
+"amenity": "place_of_worship",
+"name": "Св. Никола",
+"name:en": "Saint Nicholas Church",
+"name:fr": "Eglise Saint Nicolas"
+}
+},
+{
+"id": "node/4880475821",
+"lat": 40.9007057,
+"lon": 20.7203121,
+"tags": {
+"historic": "memorial",
+"memorial": "statue",
+"name": "Violeta Manushi",
+"name:mk": "Виолета Мануши",
+"name:sq": "Violeta Manushi"
+}
+},
+{
+"id": "node/4913622009",
+"lat": 40.9382752,
+"lon": 20.8299091,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/4966569722",
+"lat": 41.1220279,
+"lon": 20.7708293,
+"tags": {
+"name": "Scout Camp",
+"tourism": "camp_site",
+"website": "https://camp.mk/camping-price-list/"
+}
+},
+{
+"id": "node/5115421420",
+"lat": 41.1172494,
+"lon": 20.7948455,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"description": "Macedonian Eastern Orthodox Church",
+"int_name": "St. Michael the Archangel",
+"name": "Св. Архангел Михаил",
+"religion": "christian"
+}
+},
+{
+"id": "node/5115436809",
+"lat": 41.1141761,
+"lon": 20.7958132,
+"tags": {
+"historic": "tomb",
+"name": "Григор Прличев",
+"name:en": "Grigor Prlicev grave"
+}
+},
+{
+"id": "node/5297308180",
+"lat": 40.9240032,
+"lon": 20.8618569,
+"tags": {
+"name": "Shpella e Pëllumbave",
+"natural": "cave_entrance"
+}
+},
+{
+"id": "node/5297308181",
+"lat": 40.9237934,
+"lon": 20.915592,
+"tags": {
+"ele": "1132",
+"name": "Осој",
+"name:en": "Osoj",
+"name:mk": "Осој",
+"name:sq": "Maja Osoit",
+"natural": "peak"
+}
+},
+{
+"id": "node/5297308182",
+"lat": 40.918523,
+"lon": 20.9298992,
+"tags": {
+"ele": "1254",
+"name": "Алта Чука",
+"name:mk": "Алта Чука",
+"natural": "peak"
+}
+},
+{
+"id": "node/5297308185",
+"lat": 40.9164422,
+"lon": 20.9570375,
+"tags": {
+"ele": "1293",
+"name": "Високи Врв",
+"natural": "peak",
+"wikidata": "Q22011645"
+}
+},
+{
+"id": "node/5297308187",
+"lat": 40.896111,
+"lon": 20.9503484,
+"tags": {
+"ele": "1105",
+"name": "Maja Grazdinkamenit",
+"name:mk": "Гроздин Камен",
+"natural": "peak"
+}
+},
+{
+"id": "node/5297308188",
+"lat": 40.8974735,
+"lon": 20.9563136,
+"tags": {
+"ele": "1138",
+"name": "Maja Jamjetës",
+"name:mk": "Јамјето",
+"natural": "peak"
+}
+},
+{
+"id": "node/5297308189",
+"lat": 40.8944728,
+"lon": 20.9707761,
+"tags": {
+"ele": "1203",
+"name": "Maja Bitjanikut",
+"natural": "peak"
+}
+},
+{
+"id": "node/5297308192",
+"lat": 40.9159449,
+"lon": 20.9118962,
+"tags": {
+"ele": "1163",
+"name": "Maja Grabotit",
+"name:mk": "Гробот",
+"natural": "peak",
+"wikidata": "Q22008114"
+}
+},
+{
+"id": "node/5313459864",
+"lat": 40.898885,
+"lon": 20.7336525,
+"tags": {
+"ele": "974",
+"name": "Maja Qytetit",
+"natural": "peak"
+}
+},
+{
+"id": "node/5405804948",
+"lat": 41.0881175,
+"lon": 20.8227937,
+"tags": {
+"addr:city": "Velestovo",
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"ele": "970",
+"name": "Свети Тројца Архиереи",
+"religion": "christian",
+"tourism": "attraction"
+}
+},
+{
+"id": "node/5405822023",
+"lat": 41.1161136,
+"lon": 20.8400708,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"name": "Свети Атанасиј Велики Архиепископ Александриски",
+"religion": "christian"
+}
+},
+{
+"id": "node/5596272451",
+"lat": 41.05924,
+"lon": 20.8033957,
+"tags": {
+"amenity": "church",
+"historic": "wayside_shrine",
+"name": "Св. Благовештение"
+}
+},
+{
+"id": "node/5720922539",
+"lat": 40.9136489,
+"lon": 20.7408815,
+"tags": {
+"name": "Света вода",
+"name:en": "Holy Water",
+"name:pl": "Święta woda",
+"natural": "spring"
+}
+},
+{
+"id": "node/5926438456",
+"lat": 41.1057278,
+"lon": 20.8078335,
+"tags": {
+"historic": "memorial",
+"int_name": "Aard den Dolaard",
+"memorial": "plaque",
+"name": "Ард ден Долард",
+"name:en": "Aard den Dolaard",
+"name:nl": "Aard den Dolaard"
+}
+},
+{
+"id": "node/6370375570",
+"lat": 40.9578024,
+"lon": 20.7807897,
+"tags": {
+"caravans": "yes",
+"fee": "yes",
+"name": "Grebnos RV Park and Camping",
+"name:en": "Grebnos RV Park and Camping",
+"name:mk": "Автокамп „Гребнос“",
+"tents": "yes",
+"tourism": "camp_site",
+"website": "http://www.grebnos.com"
+}
+},
+{
+"id": "node/6418857588",
+"lat": 41.0043725,
+"lon": 20.9282003,
+"tags": {
+"access": "yes",
+"archaeological_site": "fortification",
+"ele": "1181",
+"historic": "archaeological_site",
+"historic:civilization": "byzantine",
+"int_name": "Kale",
+"name": "Кале",
+"name:en": "Kale",
+"name:mk": "Кале",
+"wikidata": "Q20569402",
+"wikipedia": "mk:Кале (Шурленци)"
+}
+},
+{
+"id": "node/6496448704",
+"lat": 40.9288323,
+"lon": 20.9011891,
+"tags": {
+"ele": "976",
+"int_name": "Vršina",
+"name": "Вршина",
+"name:en": "Vršina",
+"name:mk": "Вршина",
+"natural": "peak",
+"source": "survey",
+"source_ref": "Агенција за катастар на недвижности",
+"source_ref:url": "https://ossp.katastar.gov.mk/OSSP/",
+"wikidata": "Q20935242"
+}
+},
+{
+"id": "node/6496452597",
+"lat": 40.9142772,
+"lon": 20.9879202,
+"tags": {
+"alt_name": "Свети Никола",
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"int_name": "Sveti Nikola",
+"name": "Св. Никола",
+"name:en": "Saint Nicholas Church",
+"name:mk": "Св. Никола",
+"religion": "christian"
+}
+},
+{
+"id": "node/6497512448",
+"lat": 40.9389819,
+"lon": 20.9114422,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"name": "Св. Кирил и Методиј",
+"name:en": "Saint Cyril and Methodius Church",
+"name:mk": "Св. Кирил и Методиј",
+"religion": "christian"
+}
+},
+{
+"id": "node/6551647585",
+"lat": 40.9537498,
+"lon": 20.8288119,
+"tags": {
+"check_date": "2025-06-12",
+"information": "board",
+"name:en": "Galicica National Park",
+"tourism": "information"
+}
+},
+{
+"id": "node/6649560685",
+"lat": 40.9488827,
+"lon": 20.7743745,
+"tags": {
+"amenity": "place_of_worship",
+"denomination": "orthodox",
+"name": "Св. Богородица Захумска",
+"religion": "christian"
+}
+},
+{
+"id": "node/6833101185",
+"lat": 41.1120748,
+"lon": 20.7956862,
+"tags": {
+"historic": "memorial",
+"material": "stone",
+"memorial": "stele",
+"name": "Коста Абраш"
+}
+},
+{
+"id": "node/6837039795",
+"lat": 41.1124032,
+"lon": 20.8071328,
+"tags": {
+"historic": "memorial",
+"name": "Henry Dunant"
+}
+},
+{
+"id": "node/7817956981",
+"lat": 41.1124581,
+"lon": 20.7977837,
+"tags": {
+"entrance": "yes",
+"historic": "city_gate",
+"int_name": "Gorna Porta",
+"locked": "no",
+"name": "Долна Порта",
+"name:en": "Lower Gate",
+"tourism": "attraction",
+"wheelchair": "yes"
+}
+},
+{
+"id": "node/7817956982",
+"lat": 41.1150249,
+"lon": 20.7949221,
+"tags": {
+"entrance": "yes",
+"historic": "city_gate",
+"int_name": "Gorna Porta",
+"locked": "no",
+"name": "Горна Порта",
+"name:de": "oberes Stadttor \"Gorna Porta\"",
+"name:en": "Upper Gate",
+"name:fr": "Porte supérieure",
+"tourism": "attraction",
+"wheelchair": "yes"
+}
+},
+{
+"id": "node/8156945850",
+"lat": 41.0193628,
+"lon": 20.9562955,
+"tags": {
+"int_name": "Pokrvenik",
+"name": "Покрвеник",
+"name:en": "Pokrvenik",
+"note": "Moved to match Cadastre boundaries",
+"place": "village"
+}
+},
+{
+"id": "node/8301089939",
+"lat": 41.1341401,
+"lon": 20.8303506,
+"tags": {
+"addr:city": "Ohrid",
+"name": "Ograda",
+"tourism": "picnic_site"
+}
+},
+{
+"id": "node/8939343646",
+"lat": 41.0976802,
+"lon": 20.857076,
+"tags": {
+"ele": "1644",
+"name": "Висок Врв",
+"name:en": "Visok Vrv",
+"natural": "peak"
+}
+},
+{
+"id": "node/8951219184",
+"lat": 41.1119818,
+"lon": 20.799333,
+"tags": {
+"access": "yes",
+"historic": "monument",
+"name": "Фаќач на чесниот крст",
+"name:mk": "Фаќач на чесниот крст"
+}
+},
+{
+"id": "node/9147445265",
+"lat": 40.9897021,
+"lon": 20.8800033,
+"tags": {
+"ele": "1675",
+"name": "Томорос",
+"natural": "peak"
+}
+},
+{
+"id": "node/9147493556",
+"lat": 40.9695554,
+"lon": 20.8313872,
+"tags": {
+"ele": "1973",
+"name": "Лако Сигној (Вакафски Гној)",
+"natural": "peak"
+}
+},
+{
+"id": "node/9161420045",
+"lat": 41.1085274,
+"lon": 20.9099677,
+"tags": {
+"ele": "1586",
+"name": "Исток",
+"natural": "peak"
+}
+},
+{
+"id": "node/9200215821",
+"lat": 41.1141534,
+"lon": 20.798276,
+"tags": {
+"historic": "memorial",
+"memorial": "plaque",
+"name": "Нада Филева",
+"name:en": "Nada Fileva"
+}
+},
+{
+"id": "node/9903669079",
+"lat": 41.1331912,
+"lon": 20.847728,
+"tags": {
+"amenity": "drinking_water",
+"name": "Česma",
+"name:mk": "Чешма"
+}
+},
+{
+"id": "node/9907610961",
+"lat": 40.9123207,
+"lon": 20.9012264,
+"tags": {
+"information": "map",
+"map_size": "region",
+"tourism": "information"
+}
+},
+{
+"id": "node/9907610962",
+"lat": 40.8973964,
+"lon": 20.9166317,
+"tags": {
+"information": "board",
+"tourism": "information"
+}
+},
+{
+"id": "node/10113459480",
+"lat": 40.953777,
+"lon": 20.8287181,
+"tags": {
+"information": "guidepost",
+"name": "Lipova Livada",
+"tourism": "information"
+}
+},
+{
+"id": "node/10113474646",
+"lat": 40.9503362,
+"lon": 20.8265471,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/10113476077",
+"lat": 40.9413131,
+"lon": 20.828051,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/10171901399",
+"lat": 40.9668321,
+"lon": 20.8142665,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/10171901400",
+"lat": 40.966186,
+"lon": 20.8124506,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/10994717547",
+"lat": 41.1155093,
+"lon": 20.8005313,
+"tags": {
+"amenity": "place_of_worship",
+"check_date": "2025-09-09",
+"name": "Ali Pasha Mosque",
+"religion": "muslim"
+}
+},
+{
+"id": "node/11353440548",
+"lat": 40.9804492,
+"lon": 20.7973464,
+"tags": {
+"name": "Jadera",
+"tourism": "picnic_site"
+}
+},
+{
+"id": "node/11708476191",
+"lat": 40.8933988,
+"lon": 20.9171504,
+"tags": {
+"historic": "archaeological_site",
+"name": "Bazilika Paleokristiane",
+"name:en": "Paleochristian Basilica"
+}
+},
+{
+"id": "node/11975706521",
+"lat": 40.9320945,
+"lon": 20.8327873,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/11975709148",
+"lat": 40.9295267,
+"lon": 20.8349949,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/11975722181",
+"lat": 40.935533,
+"lon": 20.8329809,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/12027922920",
+"lat": 40.9088387,
+"lon": 20.7305438,
+"tags": {
+"name": "Shpella e Najazmës",
+"natural": "cave_entrance"
+}
+},
+{
+"id": "node/12108054435",
+"lat": 40.9103304,
+"lon": 20.745449,
+"tags": {
+"historic": "memorial",
+"material": "rock",
+"memorial": "cross",
+"name": "Св. Константин и Елена"
+}
+},
+{
+"id": "node/12172782991",
+"lat": 41.0881764,
+"lon": 20.9189437,
+"tags": {
+"historic": "ruins",
+"historic:civilization": "ottoman",
+"name": "Долен Исток",
+"ruins": "village"
+}
+},
+{
+"id": "node/12172787901",
+"lat": 41.1005636,
+"lon": 20.9082898,
+"tags": {
+"historic": "ruins",
+"historic:civilization": "ottoman",
+"name": "Горни Исток",
+"ruins": "village"
+}
+},
+{
+"id": "node/12583041694",
+"lat": 40.9135238,
+"lon": 20.7425138,
+"tags": {
+"int_name": "Sveti Naum",
+"name": "Свети Наум",
+"name:en": "Saint Naum",
+"place": "hamlet"
+}
+},
+{
+"id": "node/12951275434",
+"lat": 41.1406485,
+"lon": 20.7630701,
+"tags": {
+"historic": "archaeological_site",
+"name": "Св. Еразмо Охридски",
+"name:en": "Erasmus of Formia",
+"name:mk": "Св. Еразмо Охридски"
+}
+},
+{
+"id": "node/12955675079",
+"lat": 40.9232972,
+"lon": 20.7657373,
+"tags": {
+"name": "@bostanishtebeach active zone\nПлажа „Бостаниште“",
+"tourism": "camp_site"
+}
+},
+{
+"id": "node/12990104054",
+"lat": 41.1144823,
+"lon": 20.7913555,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/12990163817",
+"lat": 41.1145431,
+"lon": 20.7912242,
+"tags": {
+"board_type": "history",
+"information": "board",
+"name": "Tsar Samuel's Fortress",
+"name:de": "Zar Samuels Festung",
+"tourism": "information"
+}
+},
+{
+"id": "node/12990164929",
+"lat": 41.1150253,
+"lon": 20.7922821,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13094572366",
+"lat": 41.1142798,
+"lon": 20.7876589,
+"tags": {
+"name": "Puddle",
+"natural": "spring"
+}
+},
+{
+"id": "node/13103179151",
+"lat": 41.0928002,
+"lon": 20.9344214,
+"tags": {
+"amenity": "place_of_worship",
+"name": "Манастир Свети Јован",
+"name:en": "Saint John monastery",
+"religion": "christian"
+}
+},
+{
+"id": "node/13130799410",
+"lat": 41.1146377,
+"lon": 20.7915434,
+"tags": {
+"board_type": "history",
+"information": "board",
+"name": "Tsar Samuel's Fortress",
+"name:de": "Zar Samuels Festung",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131077142",
+"lat": 41.1151954,
+"lon": 20.79439,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131463855",
+"lat": 41.1116507,
+"lon": 20.7930321,
+"tags": {
+"guidepost": "simple",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131466503",
+"lat": 41.1112503,
+"lon": 20.7889915,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131474686",
+"lat": 41.1115128,
+"lon": 20.790938,
+"tags": {
+"hiking": "yes",
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131474759",
+"lat": 41.1138042,
+"lon": 20.792038,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13131476050",
+"lat": 41.1126293,
+"lon": 20.792443,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13292345481",
+"lat": 41.149131,
+"lon": 20.8486538,
+"tags": {
+"historic": "archaeological_site",
+"name": "Белио",
+"name:en": "Belio",
+"name:mk": "Белио",
+"wikidata": "Q98359078",
+"wikipedia": "mk:Белио (Лескоец)"
+}
+},
+{
+"id": "node/13292476021",
+"lat": 41.1489982,
+"lon": 20.8193878,
+"tags": {
+"historic": "archaeological_site",
+"name": "Лелешница",
+"name:en": "Leleshnica",
+"name:mk": "Лелешница",
+"wikidata": "Q98359081",
+"wikipedia": "mk:Лелешница (Лескоец)"
+}
+},
+{
+"id": "node/13703256361",
+"lat": 41.1155,
+"lon": 20.7929812,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13717257695",
+"lat": 41.1149498,
+"lon": 20.7946607,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13857110213",
+"lat": 41.1121395,
+"lon": 20.799324,
+"tags": {
+"information": "guidepost",
+"tourism": "information"
+}
+},
+{
+"id": "node/13894067686",
+"lat": 41.1128113,
+"lon": 20.7934726,
+"tags": {
+"access": "yes",
+"historic": "archaeological_site",
+"historic:civilization": "early_christian",
+"name": "Манчевци",
+"name:en": "Manchevci",
+"religion": "christian",
+"wikidata": "Q20568466",
+"wikipedia": "mk:Манчевци"
+}
+},
+{
+"id": "way/34093752",
+"lat": 41.1152413,
+"lon": 20.7910898,
+"tags": {
+"castle_type": "fortress",
+"historic": "castle",
+"int_name": "Samuilova tvrdina",
+"name": "Самуилова тврдина",
+"name:en": "Samuil's Fortress",
+"name:pl": "Twierdza Samuela",
+"opening_hours": "Tu-Su 09:00-15:00",
+"tourism": "attraction",
+"wheelchair": "no",
+"wikidata": "Q1283801",
+"wikimedia_commons": "Category:Samuil's Fortress, Ohrid",
+"wikipedia": "mk:Самуилова тврдина"
+}
+},
+{
+"id": "way/34094478",
+"lat": 41.1124214,
+"lon": 20.7909818,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"check_date": "2025-06-09",
+"denomination": "macedonian_orthodox",
+"image": "https://photos.app.goo.gl/BUx8i51xM12FiZ1U8",
+"int_name": "St. Clement and Panteleimon",
+"name": "Св. Климент и Пантелејмон",
+"name:de": "St. Klement und Panteleimon",
+"name:en": "St. Clement and Panteleimon",
+"name:fr": "Église Saints-Clément-et-Pantaleimon",
+"name:tr": "St. Clement and Panteleimon",
+"religion": "christian",
+"tourism": "attraction",
+"wikipedia": "mk:Црква „Св. Климент и Пантелејмон“ - Охрид"
+}
+},
+{
+"id": "way/179291828",
+"lat": 40.9139504,
+"lon": 20.7406423,
+"tags": {
+"alt_name": "Св. Архангели Михаил и Гаврил",
+"alt_name:en": "St. Naum of Ohrid",
+"alt_name:mk": "Св. Архангели Михаил и Гаврил",
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Архангели Михаил и Гаврил",
+"name:en": "Holy Archangels Michael and Gabriel",
+"name:mk": "Св. Архангели Михаил и Гаврил",
+"religion": "christian"
+}
+},
+{
+"id": "way/194610965",
+"lat": 41.1120545,
+"lon": 20.7941752,
+"tags": {
+"addr:city": "Ohrid",
+"addr:postcode": "6000",
+"addr:street": "Илинденска",
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"fee": "yes",
+"fee:amount": "150 DEN",
+"int_name": "Church of St. Sophia",
+"name": "Св. Софија",
+"name:de": "Sophienkirche",
+"name:en": "Church of St. Sophia",
+"name:fr": "Église Sainte-Sophie",
+"name:pl": "Kościół Św. Zofii",
+"name:ro": "Biserica Ortodoxă „Sfânta Sofia” Ohrid",
+"name:tr": "Church of St. Sophia",
+"religion": "christian",
+"tourism": "attraction",
+"wheelchair": "no",
+"wikidata": "Q164743",
+"wikimedia_commons": "Category:St. Sophia Church (Ohrid)",
+"wikipedia": "en:Church of Saint Sophia, Ohrid"
+}
+},
+{
+"id": "way/194640377",
+"lat": 40.9969761,
+"lon": 20.7997486,
+"tags": {
+"int_name": "Gradište",
+"name": "Градиште",
+"name:en": "Gradishte",
+"tourism": "camp_site"
+}
+},
+{
+"id": "way/219684157",
+"lat": 40.9121722,
+"lon": 20.7385334,
+"tags": {
+"cabins": "no",
+"caravans": "no",
+"int_name": "Military Resort ‘General Vasko Karangelevski’",
+"name": "Воено Одморалиште \"Генерал Васко Карангелевски\"",
+"tents": "no",
+"tourism": "camp_site"
+}
+},
+{
+"id": "way/219775049",
+"lat": 40.9101954,
+"lon": 20.7452798,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Пресвета Богородица",
+"name:en": "Holy Mother of God",
+"name:mk": "Пресвета Богородица",
+"religion": "christian"
+}
+},
+{
+"id": "way/219789600",
+"lat": 40.9113595,
+"lon": 20.749272,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Атанасиј",
+"name:en": "St. Athanasius",
+"name:mk": "Св. Атанасиј",
+"religion": "christian"
+}
+},
+{
+"id": "way/229773266",
+"lat": 41.0375397,
+"lon": 20.8058183,
+"tags": {
+"int_name": "Elešec",
+"name": "Автокамп „Елешец“",
+"name:en": "Eleshec Caravan Park",
+"tourism": "camp_site"
+}
+},
+{
+"id": "way/233274330",
+"lat": 41.1111244,
+"lon": 20.7887653,
+"tags": {
+"alt_name": "Св. Јован Богослов",
+"alt_name:en": "St. John the Evangelist",
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "orthodox",
+"image": "https://photos.app.goo.gl/bemXpVQsG6xDvY8m6",
+"int_name": "St. John the Theologian",
+"name": "Св. Јован Канео",
+"name:cs": "Sv. Jan Evangelista",
+"name:en": "St. John Kaneo",
+"name:fr": "Église Saint-Jean-le-Théologien, dite « Kaneo »",
+"religion": "christian",
+"tourism": "attraction",
+"wheelchair": "no",
+"wikidata": "Q164664",
+"wikimedia_commons": "Category:St. John Kaneo Church",
+"wikipedia": "mk:Црква „Св. Јован Канео“ - Охрид"
+}
+},
+{
+"id": "way/235728304",
+"lat": 40.9516234,
+"lon": 20.8301413,
+"tags": {
+"access": "yes",
+"building": "house",
+"building:levels": "1",
+"building:material": "stone",
+"check_date": "2025-06-12",
+"ele": "1600",
+"electricity": "yes",
+"fee": "yes",
+"name": "Spiridon",
+"roof:levels": "1",
+"roof:shape": "gabled",
+"shower": "no",
+"tourism": "alpine_hut",
+"website": "https://www.spiridon.mk/"
+}
+},
+{
+"id": "way/256909737",
+"lat": 41.0516742,
+"lon": 20.8200494,
+"tags": {
+"addr:city": "Коњско",
+"addr:postcode": "6000",
+"building": "cabin",
+"email": "zpvelikamen@gmail.com",
+"image": "https://scontent.fskp1-2.fna.fbcdn.net/v/t39.30808-6/316546940_135897689247272_2795022917367637217_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=e3f864&_nc_ohc=PZ9IPU7r4gAAX_JWxJ9&tn=i9ZVW3vi-6K-P2VX&_nc_ht=scontent.fskp1-2.fna&oh=00_AfAkz4legDTik7AlK4YyABoS9xXU3d91v",
+"internet_access": "yes",
+"internet_access:fee": "no",
+"name": "Троуглеш",
+"operator": "ЗП Великамен",
+"phone": "070352959",
+"tourism": "alpine_hut"
+}
+},
+{
+"id": "way/270207216",
+"lat": 41.1123426,
+"lon": 20.7948313,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Црква Свети Никола - Геракомија",
+"name:en": "Church of St. Nicholas - Gerakomija",
+"religion": "christian",
+"wheelchair": "no"
+}
+},
+{
+"id": "way/270986732",
+"lat": 40.9249635,
+"lon": 20.7733655,
+"tags": {
+"caravans": "yes",
+"name": "Авто камп Љубаништа",
+"name:en": "Auto Camp Ljubanishta",
+"static_caravans": "yes",
+"tents": "yes",
+"tourism": "camp_site"
+}
+},
+{
+"id": "way/305388566",
+"lat": 41.1155033,
+"lon": 20.8005132,
+"tags": {
+"amenity": "place_of_worship",
+"building": "mosque",
+"denomination": "sunni",
+"name": "Алипашина џамија",
+"name:de": "Ali Pasha Moschee",
+"name:en": "Ali Pasha Mosque",
+"name:sq": "Xhamia e Ali Pashës",
+"religion": "muslim",
+"wikidata": "Q18018276",
+"wikimedia_commons": "Category:Ali Paša Mosque (Ohrid)",
+"wikipedia": "en:Ali Pasha Mosque (Ohrid)"
+}
+},
+{
+"id": "way/305673429",
+"lat": 41.11226,
+"lon": 20.7973097,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"check_date": "2025-09-08",
+"denomination": "orthodox",
+"name": "Света Богородица Болничка",
+"religion": "christian"
+}
+},
+{
+"id": "way/359584986",
+"lat": 41.1109674,
+"lon": 20.8047653,
+"tags": {
+"addr:city": "Охрид",
+"addr:postcode": "6000",
+"addr:street": "Партизанска",
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "roman_catholic",
+"name": "Црква Св. Кирил и Методиј и Св. Бенедикт",
+"name:en": "Catholic Church of Saints Cyril and Methodius, and Saint Benedict",
+"name:pl": "Kościół pw św. Cyryla i Metodego i św. Benedykta",
+"religion": "christian"
+}
+},
+{
+"id": "way/517915859",
+"lat": 41.1141992,
+"lon": 20.7955646,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"building:levels": "1",
+"denomination": "orthodox",
+"image": "https://photos.app.goo.gl/36qp26doimPnPBKG9",
+"name": "Пресвета Богородица Перивлепта",
+"name:en": "Church of Holy Mother of God Perivleptos",
+"name:fr": "Église Sainte-Mère-de-Dieu « très glorieuse »",
+"name:pl": "Kościół Najświętszej Bogurodzicy Dziewicy",
+"religion": "christian",
+"roof:material": "roof_tiles",
+"roof:shape": "hipped",
+"wikidata": "Q1260648",
+"wikimedia_commons": "Category:Church of the Theotokos Peribleptos (Ohrid)",
+"wikipedia": "mk:Црква „Пресвета Богородица Перивлептос“ - Охрид"
+}
+},
+{
+"id": "way/623448985",
+"lat": 41.1178931,
+"lon": 20.7921566,
+"tags": {
+"amenity": "place_of_worship",
+"building": "mosque",
+"denomination": "sunni",
+"name": "Ајдар-пашина џамија",
+"religion": "muslim"
+}
+},
+{
+"id": "way/625505115",
+"lat": 41.1121687,
+"lon": 20.7913986,
+"tags": {
+"amenity": "cafe",
+"building": "yes",
+"building:levels": "1",
+"building:material": "masonry",
+"building:use": "foodservice",
+"cuisine": "ice_cream",
+"historic": "building",
+"internet_access": "wlan",
+"internet_access:fee": "no",
+"name": "Baptisterium",
+"outdoor_seating": "yes",
+"roof:shape": "pyramidal",
+"toilets": "yes"
+}
+},
+{
+"id": "way/625505134",
+"lat": 41.1151334,
+"lon": 20.7938899,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "orthodox",
+"name": "Света Богородица Пандонос",
+"name:en": "Sveta Bogorodica Pandonos",
+"religion": "christian",
+"wheelchair": "no"
+}
+},
+{
+"id": "way/625527412",
+"lat": 41.1133569,
+"lon": 20.7932238,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"name": "St. Kuzman i Damjan",
+"name:mk": "Свети Кузман и Дамјан",
+"religion": "christian"
+}
+},
+{
+"id": "way/626882189",
+"lat": 41.1130534,
+"lon": 20.7941651,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Црква Свети 40 Севастиски Маченици",
+"religion": "christian"
+}
+},
+{
+"id": "way/626884064",
+"lat": 41.1130213,
+"lon": 20.7958674,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Св. Никола Чудотворец",
+"name:en": "Saint Nicholas the Wonderworker",
+"religion": "christian",
+"wheelchair": "no",
+"wikidata": "Q18599326",
+"wikipedia": "mk:Црква „Св. Никола Чудотворец“ - Охрид"
+}
+},
+{
+"id": "way/626884083",
+"lat": 41.1135558,
+"lon": 20.7966955,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "orthodox",
+"name": "Мали Свети Врачи - Св. Кузман и Дамјан",
+"religion": "christian",
+"wikidata": "Q12285728",
+"wikipedia": "mk:Црква „Мали Свети Врачи“"
+}
+},
+{
+"id": "way/626884084",
+"lat": 41.1139206,
+"lon": 20.7962373,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"building:levels": "1",
+"denomination": "orthodox",
+"image": "https://photos.app.goo.gl/FMQrpCD2wV9ab5X16",
+"int_name": "Sv. Constantin i Helena",
+"name": "Св. Константин и Елена",
+"name:en": "St. Constantine and Helena",
+"name:mk": "Св. Константин и Елена",
+"religion": "christian",
+"roof:material": "roof_tiles",
+"roof:shape": "hipped",
+"wheelchair": "no"
+}
+},
+{
+"id": "way/626885547",
+"lat": 41.116253,
+"lon": 20.7992978,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "orthodox",
+"int_name": "Sv. Bogorodica Kamensko",
+"name": "Св. Богородица Каменска",
+"religion": "christian"
+}
+},
+{
+"id": "way/692090840",
+"lat": 40.9142734,
+"lon": 20.9879202,
+"tags": {
+"alt_name": "Свети Никола",
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"int_name": "Sveti Nikola",
+"name": "Св. Никола",
+"name:en": "Saint Nicholas Church",
+"name:mk": "Св. Никола",
+"religion": "christian"
+}
+},
+{
+"id": "way/692925887",
+"lat": 41.0623326,
+"lon": 20.8018178,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"building:levels": "2",
+"denomination": "orthodox",
+"name": "Света Великомаченичка Недела",
+"religion": "christian"
+}
+},
+{
+"id": "way/722996635",
+"lat": 41.1199985,
+"lon": 20.8111203,
+"tags": {
+"amenity": "place_of_worship",
+"building": "mosque",
+"denomination": "sunni",
+"name": "Кешанли џамија",
+"religion": "muslim"
+}
+},
+{
+"id": "way/878691159",
+"lat": 41.0896648,
+"lon": 20.9881783,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Св. Наум Охридски",
+"name:en": "St. Naum of Ohrid",
+"name:mk": "Св. Наум Охридски",
+"religion": "christian"
+}
+},
+{
+"id": "way/878697002",
+"lat": 41.0483359,
+"lon": 20.9685423,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Св. Петар и Св. Павле",
+"name:en": "St. Peter and Paul",
+"religion": "christian"
+}
+},
+{
+"id": "way/878697004",
+"lat": 41.0553778,
+"lon": 20.9616163,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Св. Недела",
+"name:en": "St. Domenica",
+"religion": "christian"
+}
+},
+{
+"id": "way/888423769",
+"lat": 41.1136255,
+"lon": 20.7938767,
+"tags": {
+"addr:city": "Охрид",
+"addr:housenumber": "39",
+"addr:postcode": "6000",
+"addr:street": "Илинденска",
+"amenity": "place_of_worship",
+"building": "church",
+"check_date": "2025-09-06",
+"denomination": "orthodox",
+"name": "Saint Varvara",
+"name:mk": "Света Варвара",
+"religion": "christian",
+"wheelchair": "no"
+}
+},
+{
+"id": "way/953826670",
+"lat": 41.1125967,
+"lon": 20.7968569,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Свети Климент",
+"religion": "christian"
+}
+},
+{
+"id": "way/1003406429",
+"lat": 41.1143969,
+"lon": 20.7950985,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Св. Димитриј",
+"name:en": "St. Dimitrij",
+"religion": "christian",
+"roof:material": "roof_tiles",
+"roof:shape": "hipped",
+"wikidata": "Q12293160",
+"wikipedia": "mk:Црква „Св. Димитриј“ - Охрид"
+}
+},
+{
+"id": "way/1003412616",
+"lat": 41.1121876,
+"lon": 20.7974981,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Свети Никола Болнички",
+"name:en": "St. Nicholas Bolnichki",
+"religion": "christian",
+"wikidata": "Q12912863",
+"wikipedia": "mk:Црква „Св. Никола Болнички“ - Охрид"
+}
+},
+{
+"id": "way/1019699030",
+"lat": 40.9183331,
+"lon": 20.9745683,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Свети Илија",
+"religion": "christian"
+}
+},
+{
+"id": "way/1095139113",
+"lat": 40.9189169,
+"lon": 20.771254,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Никола",
+"name:en": "St. Nicholas",
+"name:mk": "Св. Никола",
+"religion": "christian",
+"wikidata": "Q81798373",
+"wikimedia_commons": "Category:St. Nicholas Church (Ljubaništa)",
+"wikipedia": "mk:Црква „Св. Никола“ - Љубаништа"
+}
+},
+{
+"id": "way/1259421849",
+"lat": 40.8977199,
+"lon": 20.9416414,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Kisha e Shen Mitrit Bezmisht",
+"religion": "christian"
+}
+},
+{
+"id": "way/1270697443",
+"lat": 40.9130923,
+"lon": 20.7414756,
+"tags": {
+"air_conditioning": "no",
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "macedonian_orthodox",
+"name": "Св. Петка",
+"name:en": "St. Parascheva",
+"name:mk": "Св. Петка",
+"polling_station": "no",
+"religion": "christian",
+"wheelchair": "no"
+}
+},
+{
+"id": "way/1307018193",
+"lat": 41.1340407,
+"lon": 20.8370929,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Климент Охридски / Св. Пантелејмон",
+"name:en": "St. Clement of Ohrid / St. Pantaleon",
+"name:mk": "Св. Климент Охридски / Св. Пантелејмон",
+"note": "(en) Church is known also as St. Pantaleon; (mk) Црквата е позната кај месното население како Св. Пантелејмон",
+"religion": "christian",
+"wikidata": "Q12911854",
+"wikimedia_commons": "Category:St. Clement of Ohrid Church (Velgošti)",
+"wikipedia": "mk:Црква „Св. Климент Охридски“ - Велгошти"
+}
+},
+{
+"id": "way/1307018758",
+"lat": 41.1319223,
+"lon": 20.8313297,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Димитриј Солунски",
+"name:en": "St. Demetrius of Salonica",
+"name:mk": "Св. Димитриј Солунски",
+"religion": "christian",
+"wikidata": "Q79403407",
+"wikimedia_commons": "Category:St. Demetrius Church (Velgošti)",
+"wikipedia": "mk:Црква „Св. Димитриј“ - Велгошти"
+}
+},
+{
+"id": "way/1307020207",
+"lat": 41.128978,
+"lon": 20.8367834,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Недела",
+"name:en": "St. Kyriaki",
+"name:mk": "Св. Недела",
+"religion": "christian",
+"wikidata": "Q12911868",
+"wikimedia_commons": "Category:St. Nedela Church (Velgošti)",
+"wikipedia": "mk:Црква „Св. Недела“ - Велгошти"
+}
+},
+{
+"id": "way/1307023228",
+"lat": 41.1335271,
+"lon": 20.847535,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Илија",
+"name:en": "St. Eliyah",
+"name:mk": "Св. Илија",
+"religion": "christian",
+"wikidata": "Q79880429",
+"wikimedia_commons": "Category:St. Elijah Church (Velgošti)",
+"wikipedia": "mk:Црква „Св. Илија“ - Велгошти"
+}
+},
+{
+"id": "way/1307023679",
+"lat": 41.1241345,
+"lon": 20.8430897,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Пресвета Богородица",
+"name:en": "Holy Mother of God",
+"name:mk": "Пресвета Богородица",
+"religion": "christian",
+"wikidata": "Q12911779",
+"wikimedia_commons": "Category:Church of the Theotokos (Velgošti)",
+"wikipedia": "mk:Црква „Св. Богородица“ - Велгошти"
+}
+},
+{
+"id": "way/1307024976",
+"lat": 41.1291663,
+"lon": 20.8399346,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Петка",
+"name:en": "St.Parascheva",
+"name:mk": "Св. Петка",
+"religion": "christian",
+"wikidata": "Q79880864",
+"wikimedia_commons": "Category:St. Petka Church (Velgošti)",
+"wikipedia": "mk:Црква „Св. Петка“ - Велгошти"
+}
+},
+{
+"id": "way/1308381477",
+"lat": 41.1391815,
+"lon": 20.8478784,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Church of St. Petar and St. Paul",
+"name:mk": "Црква на Св. Ап. Петар и Св. Ап. Павле",
+"religion": "christian"
+}
+},
+{
+"id": "way/1314953635",
+"lat": 41.0126367,
+"lon": 20.9945199,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Свети Атанасиј",
+"religion": "christian"
+}
+},
+{
+"id": "way/1314953640",
+"lat": 41.0234,
+"lon": 20.9517867,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Свети Атанасиј",
+"religion": "christian"
+}
+},
+{
+"id": "way/1314953647",
+"lat": 41.0299033,
+"lon": 20.9479742,
+"tags": {
+"area": "yes",
+"historic": "ruins",
+"name": "Стар Покрвеник"
+}
+},
+{
+"id": "way/1314953650",
+"lat": 41.0112359,
+"lon": 20.9363102,
+"tags": {
+"area": "yes",
+"historic": "ruins",
+"name": "Старо Шурленци"
+}
+},
+{
+"id": "way/1315105279",
+"lat": 41.0881371,
+"lon": 20.9190633,
+"tags": {
+"area": "yes",
+"historic": "ruins",
+"name": "Долно Исток"
+}
+},
+{
+"id": "way/1315105280",
+"lat": 41.100459,
+"lon": 20.9083832,
+"tags": {
+"area": "yes",
+"historic": "ruins",
+"name": "Горни Исток"
+}
+},
+{
+"id": "way/1357900234",
+"lat": 40.8965515,
+"lon": 20.777075,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Kisha e Shën Mërisë",
+"religion": "christian"
+}
+},
+{
+"id": "way/1448982596",
+"lat": 41.140865,
+"lon": 20.8324843,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Тома",
+"name:en": "St. Thomas",
+"name:mk": "Св. Тома",
+"religion": "christian",
+"wikidata": "Q78453158",
+"wikipedia": "mk:Црква „Св. Тома“ - Лескоец"
+}
+},
+{
+"id": "way/1448982597",
+"lat": 41.14071,
+"lon": 20.832371,
+"tags": {
+"amenity": "place_of_worship",
+"building": "chapel",
+"denomination": "macedonian_orthodox",
+"name": "Св. Петка",
+"name:en": "St. Parascheva",
+"name:mk": "Св. Петка",
+"religion": "christian"
+}
+},
+{
+"id": "way/1448982602",
+"lat": 41.1394897,
+"lon": 20.8382142,
+"tags": {
+"alt_name": "Вознесение Христово",
+"alt_name:en": "Ascension of Christ",
+"alt_name:mk": "Вознесение Христово",
+"amenity": "place_of_worship",
+"building": "church",
+"name": "Св. Спас",
+"name:en": "Holy Salvation",
+"name:mk": "Св. Спас",
+"religion": "christian",
+"wikidata": "Q12293250",
+"wikipedia": "mk:Црква „Вознесение Христово“ - Лескоец"
+}
+},
+{
+"id": "way/1448982607",
+"lat": 41.1420005,
+"lon": 20.8403474,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"name": "Св. Наум Охридски",
+"name:en": "St. Naum of Ohrid",
+"name:mk": "Св. Наум Охридски",
+"religion": "christian",
+"wikidata": "Q78512155",
+"wikipedia": "mk:Црква „Св. Наум Охридски“ - Лескоец"
+}
+},
+{
+"id": "way/1448982610",
+"lat": 41.1391241,
+"lon": 20.8366518,
+"tags": {
+"amenity": "place_of_worship",
+"building": "church",
+"denomination": "macedonian_orthodox",
+"name": "Св. Никола",
+"name:en": "St. Nicholas",
+"name:mk": "Св. Никола",
+"religion": "christian",
+"wikidata": "Q78453912",
+"wikipedia": "mk:Црква „Св. Никола“ - Лескоец (Охридско)"
+}
+},
+{
+"id": "way/1497789103",
+"lat": 41.1146475,
+"lon": 20.7938029,
+"tags": {
+"amenity": "theatre",
+"capacity": "1719",
+"historic": "archaeological_site",
+"image": "https://photos.app.goo.gl/5GGrXSj2zMyA2odG7",
+"int_name": "Antički Teatar",
+"name": "Антички театар",
+"name:en": "Ancient Theatre",
+"name:fr": "Théatre antique",
+"name:lt": "Antikinis Teatras",
+"name:pl": "Teatr Antyczny",
+"name:tr": "Antik Tiyatro",
+"theatre:type": "amphi",
+"tourism": "attraction",
+"wheelchair": "no",
+"wikidata": "Q3180446",
+"wikimedia_commons": "Category:Ancient Theatre of Ohrid",
+"wikipedia": "mk:Антички театар (Охрид)"
+}
+},
+{
+"id": "way/1500202587",
+"lat": 40.8928468,
+"lon": 20.9021484,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Kisha e Shën Dhimitrit",
+"religion": "christian"
+}
+},
+{
+"id": "way/1501536174",
+"lat": 41.1133788,
+"lon": 20.797297,
+"tags": {
+"addr:street": "Климентов Универзитет",
+"amenity": "place_of_worship",
+"building": "church",
+"check_date": "2025-09-06",
+"denomination": "orthodox",
+"name": "Света Борогодица Челница",
+"name:en": "Holy Mother of God Chelnichka",
+"religion": "christian",
+"wikidata": "Q12273475",
+"wikipedia": "mk:Црква „Св. Богородица Челница“ - Охрид"
+}
+},
+{
+"id": "way/1527978487",
+"lat": 41.1109672,
+"lon": 20.7889274,
+"tags": {
+"amenity": "place_of_worship",
+"building": "yes",
+"denomination": "orthodox",
+"name": "Црква Рождество на Пресвета Богородица и Света Петка",
+"religion": "christian",
+"start_date": "1998",
+"wheelchair": "no",
+"wikimedia_commons": "File:Sv. Bogorodica pod Kaneo.JPG"
+}
+},
+{
+"id": "relation/20379557",
+"lat": 41.1128018,
+"lon": 20.7906395,
+"tags": {
+"archaeological_site": "city",
+"charge": "150 MKD",
+"fee": "yes",
+"historic": "archaeological_site",
+"int_name": "Plaošnik",
+"name": "Плаошник",
+"name:en": "Plaoshnik",
+"name:fr": "Site dit « Lieu plat sur la colline » (Plaoshnik)",
+"ruins": "wall",
+"tourism": "attraction",
+"type": "multipolygon",
+"wikidata": "Q7201685",
+"wikimedia_commons": "Category:Plaošnik",
+"wikipedia": "mk:Плаошник"
+}
+}
+]
