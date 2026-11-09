@@ -27,7 +27,7 @@ KINDS = {
     "H": dict(name="H trails", one="H trail", what="easier and shorter hiking trails", color="#C8202F", gpx="Red"),
     "T": dict(name="T trails", one="T trail", what="harder and longer hiking trails, with more climbing", color="#1F7A3D", gpx="DarkGreen"),
     "G": dict(name="G trails", one="G trail", what="high ridge trails above 1,600 m", color="#D4A20B", gpx="Yellow"),
-    "MTB": dict(name="MTB trails", one="MTB trail", what="mountain bike trails, several of which link the hiking routes", color="#24357F", gpx="DarkBlue"),
+    "MTB": dict(name="MTB trails", one="MTB trail", what="mountain bike trails, some of them handy links between hiking routes", color="#24357F", gpx="DarkBlue"),
 }
 ORDER = ["H", "T", "G", "MTB"]
 
@@ -317,9 +317,9 @@ def poi_wpt(p):
 def trail_summary(t):
     k = KINDS[t["kind"]]
     s = (f"{t['code']} is one of Galičica National Park's {k['what']}. "
-         f"{'A loop' if t['loop'] else 'It runs'} {fmt_km(t['length'])} km "
+         + ("It's a loop of " if t["loop"] else "It's ") + f"{fmt_km(t['length'])} km "
          + (f"from {t['start_name']['label']}" if t["loop"] else f"from {t['start_name']['label']} to {t['end_name']['label']}")
-         + f", climbing about {fmt_int(t['up'])} m and descending {fmt_int(t['down'])} m in the direction drawn, between {fmt_int(t['min'])} m and {fmt_int(t['max'])} m.")
+         + f", with about {fmt_int(t['up'])} m of climbing and {fmt_int(t['down'])} m of descent in the direction drawn, between {fmt_int(t['min'])} m and {fmt_int(t['max'])} m.")
     return s
 
 def geojson_feature(t):
@@ -458,16 +458,16 @@ def build_index(trails, routes, pois):
   <div id="map" class="map map-hero" role="region" aria-label="Map of all marked trails in Galičica National Park"></div>
   <div class="hero-card">
     <h1>Every marked trail in Galičica National Park</h1>
-    <p class="lede">All {len(trails)} numbered trails on the mountain between Lake Ohrid and Lake Prespa, with a map, an elevation profile and a free GPX file for each. The park's own trail map disappeared from its website; this is that map, rescued from a 2020 archive and checked against OpenStreetMap.</p>
+    <p class="lede">All {len(trails)} numbered trails on the mountain between Lake Ohrid and Lake Prespa, with a map, an elevation profile and a free GPX file for each. The park took its trail map down in a website redesign. This is that map, rebuilt from a copy the Internet Archive saved in 2020 and checked against OpenStreetMap.</p>
     <div class="legend" aria-label="Trail types (tick to show on the map)">{legend}</div>
     <p class="cta"><a class="btn" href="/gpx/galicica-all-trails.gpx" download>Download all trails (GPX)</a> <a class="quiet" href="#phone">How to use it on your phone</a></p>
-    <p class="note">On a phone, open the file in <a href="https://organicmaps.app/">Organic Maps</a>: free, open source, and it works offline, which matters because there's no signal on most of the mountain.</p>
+    <p class="note">On a phone, open the file in <a href="https://organicmaps.app/">Organic Maps</a>: it's free and open source, and you can use it offline, which matters because there's no signal on most of the mountain.</p>
   </div>
 </section>
 
 <div class="wrap">
 <section class="intro">
-  <p>Galičica (Галичица) is the limestone mountain between Ohrid and Prespa, a national park since 1958. The park marks its trails with codes you'll see painted on the signposts: <b>H</b> for the easier ones, <b>T</b> for the longer and steeper, <b>G</b> for the ridges above 1,600 m, and <b>MTB</b> for bike trails. The codes on this site match the signs.</p>
+  <p>Galičica (Галичица) is the limestone mountain between Ohrid and Prespa, a national park since 1958. The park marks its trails with codes you'll see painted on the signposts: <b>H</b> for the easier ones, <b>T</b> for the longer and steeper, <b>G</b> for the ridges above 1,600 m, and <b>MTB</b> for bike trails. The codes on this site are the ones on the signs.</p>
   <p class="mk" lang="mk">Сите обележани патеки на Националниот парк Галичица (H, T, G и MTB), со карта, висински профил и GPX за секоја патека. Податоците се од картата на патеки на Паркот од 2020 година.</p>
 </section>
 
@@ -485,20 +485,20 @@ def build_index(trails, routes, pois):
 
 <section id="phone" class="block">
   <h2>On your phone</h2>
-  <p class="note">We recommend <a href="https://organicmaps.app/">Organic Maps</a>. It's free and open source, has no ads or tracking, works fully offline, and draws its map from OpenStreetMap, which already shows most of the paths on Galičica. The park's trail lines on top tell you which path is which.</p>
+  <p class="note">We recommend <a href="https://organicmaps.app/">Organic Maps</a>. It's free and open source, has no ads or tracking, and needs no signal once you've downloaded the map. Its map is OpenStreetMap, which has most of the paths on Galičica already. With the park's trail lines on top, you can tell which path is which.</p>
   <ol class="steps">
     <li>Install Organic Maps from the <a href="https://apps.apple.com/app/organic-maps/id1567437057">App Store</a> or <a href="https://play.google.com/store/apps/details?id=app.organicmaps">Google Play</a> (or <a href="https://f-droid.org/packages/app.organicmaps/">F-Droid</a>).</li>
     <li>While you're on wifi, open the app, find North Macedonia and download its map. Albania too if you'll walk near the border on the high ridge.</li>
-    <li>On this site, tap a trail's <b>GPX</b> button, or download all trails at once. Open the file with Organic Maps: on iPhone, from the Files app or the share sheet; on Android, tap the downloaded file or share it to Organic Maps. The trail appears as a list under Bookmarks and Tracks, with its guideposts as places.</li>
-    <li>On the mountain, your position shows on the trail with no signal at all. Tap the track for its length and elevation.</li>
+    <li>On this site, tap a trail's <b>GPX</b> button, or download all trails at once. Open the file with Organic Maps: on iPhone, from the Files app or the share sheet; on Android, tap the downloaded file or share it to Organic Maps. You'll find the trail under Bookmarks and Tracks, with its guideposts as places.</li>
+    <li>On the mountain, you'll see where you are on the trail with no signal at all. Tap the track for its length and elevation.</li>
   </ol>
-  <p class="note">The same files work in AlpineQuest, OsmAnd, Gaia GPS, Locus and on Garmin devices if you already use one of those.</p>
+  <p class="note">If you already use AlpineQuest, OsmAnd, Gaia GPS, Locus or a Garmin, you can open the same files there.</p>
 </section>
 
 <section id="downloads" class="block">
   <h2>Downloads</h2>
   <ul class="downloads">
-    <li><a href="/gpx/galicica-all-trails.gpx" download>galicica-all-trails.gpx</a>: every trail as its own track, colored by type, with elevations, plus the park guideposts, map boards and route trailheads as waypoints. Opens in Organic Maps, AlpineQuest, OsmAnd, Gaia GPS, Locus and on Garmin devices.</li>
+    <li><a href="/gpx/galicica-all-trails.gpx" download>galicica-all-trails.gpx</a>: every trail as its own track, colored by type, with elevations, plus the park guideposts, map boards and route trailheads as waypoints. You can open it in Organic Maps, AlpineQuest, OsmAnd, Gaia GPS, Locus or on a Garmin.</li>
     <li><a href="/data/galicica-trails.geojson" download>galicica-trails.geojson</a>: the same trails with their stats as properties, for QGIS, uMap or your own map.</li>
     <li><a href="/data/galicica-trails.kml" download>galicica-trails.kml</a>: for Google Earth and Google My Maps.</li>
     <li>One GPX per trail and per route, linked from each trail's page and from the table above.</li>
@@ -543,14 +543,14 @@ def build_trail(t, trails, pois):
         along = f'<h2>On or near the trail</h2><ul class="along">{items}</ul>'
     links = ""
     if t["links"]:
-        links = ("<h2>Connects to</h2><ul class=\"links\">" + "".join(
+        links = ("<h2>Connecting trails</h2><ul class=\"links\">" + "".join(
             f'<li>{plate(o["code"])} <a href="/trails/{o["slug"]}/">{esc(o["start_name"]["label"])}{" loop" if o["loop"] else " to " + esc(o["end_name"]["label"])}</a>, {fmt_km(o["length"])} km</li>'
             for o in t["links"]) + "</ul>")
     rts = ""
     if t["routes"]:
         rts = ("<h2>Part of the park's suggested routes</h2><ul class=\"links\">" + "".join(
             f'<li><a href="/routes/{r["slug"]}/">{esc(r["name"])}</a>, {r["variants"][0]["km"]:.1f} km</li>' for r in t["routes"]) + "</ul>")
-    src = ("The line is from OpenStreetMap (relation 7330532). The park's own map drew the climb from the pass as a straight 1.4 km line, so we used the mapped path instead."
+    src = ("The line is from OpenStreetMap (relation 7330532). On the park's own map the climb from the pass is a straight 1.4 km line, so we used the mapped path instead."
            if t["src"] == "osm" else
            "The line is from the park's own trail map as archived in October 2020. It was drawn by hand on a map, not recorded on the ground, so expect it to be off by 20 to 50 m in places.")
     nav_prev = trails[trails.index(t) - 1] if trails.index(t) > 0 else None
@@ -570,7 +570,7 @@ def build_trail(t, trails, pois):
 {rts}{links}{along}
 {('<h2>What we found on the ground</h2><p>' + esc(t['walked']) + '</p>') if t['walked'] else ''}
 <h2>About this line</h2>
-<p>{esc(t['loop_note']) + ' ' if t['loop_note'] else ''}{src} Most of the park's trails are marked on the ground with paint blazes and numbered guideposts, but markings fade and paths get overgrown. Carry an offline map and turn back if the path disappears.</p>
+<p>{esc(t['loop_note']) + ' ' if t['loop_note'] else ''}{src} Most of the park's trails are marked on the ground with paint blazes and numbered guideposts, but markings fade and paths get overgrown. Carry an offline map and turn back if you lose the path.</p>
 <nav class="prevnext">{f'<a href="/trails/{nav_prev["slug"]}/">{plate(nav_prev["code"], link=False)} previous</a>' if nav_prev else '<span></span>'}{f'<a href="/trails/{nav_next["slug"]}/">next {plate(nav_next["code"], link=False)}</a>' if nav_next else ''}</nav>
 </main>"""
     feats = [map_feature(t)] + [map_feature(o, "link") for o in t["links"]]
@@ -604,7 +604,7 @@ def build_route(r, routes):
 <main class="wrap trail">
 <p class="crumbs"><a href="/">All trails</a> / <a href="/#routes">Suggested routes</a></p>
 <h1><span>{esc(r['name'])}</span></h1>
-<p class="lede">One of the ten day routes suggested by Galičica National Park. It links {', '.join(plate(c) for c in r['codes'])}. Start at {fmt_int(alts['frm_alt'])} m, finish at {fmt_int(alts['to_alt'])} m.</p>
+<p class="lede">One of the ten day routes suggested by Galičica National Park, made up of {', '.join(plate(c) for c in r['codes'])}. Start at {fmt_int(alts['frm_alt'])} m, finish at {fmt_int(alts['to_alt'])} m.</p>
 <table class="dirs"><thead><tr><th>Direction</th><th class="n">Length</th><th class="n">Time</th><th>Park rating</th></tr></thead><tbody>{dirs}</tbody></table>
 <p class="cta"><a class="btn" href="/gpx/route-{r['slug']}.gpx" download>Download GPX for this route</a></p>
 <p class="note">On a phone, open it in <a href="https://organicmaps.app/">Organic Maps</a> (free, open source, offline). <a href="/#phone">How</a>.</p>
@@ -614,7 +614,7 @@ def build_route(r, routes):
 <details><summary>Original text in Macedonian</summary><p lang="mk">{esc(r['text_mk'])}</p><p class="note" lang="mk">{esc(r['name_mk'])}</p></details>
 <h2>Trails on this route</h2>
 <ul class="links">{''.join(f'<li>{plate(t["code"])} <a href="/trails/{t["slug"]}/">{esc(t["start_name"]["label"])}{" loop" if t["loop"] else " to " + esc(t["end_name"]["label"])}</a>, {fmt_km(t["length"])} km</li>' for t in r['trails'])}</ul>
-<p class="note">The GPX holds each trail as a separate track, drawn in full. A trail can run past the point where the route turns off it, so the tracks add up to more than the park's route length. Follow the trailheads and the park's distance.</p>
+<p class="note">In the GPX each trail is a separate track, drawn in full. Some trails go on past the point where you leave them for the next one, so the tracks add up to more than the park's route length. Go by the trailheads and the park's distance.</p>
 </main>"""
     feats = [map_feature(t) for t in r["trails"]]
     pts = [dict(lat=v["start"][0], lon=v["start"][1], name=f"Start, going {v['frm']} to {v['to']}", kind="end") for v in r["variants"] if v.get("start")]
@@ -631,28 +631,28 @@ def build_about(trails):
     body = f"""
 <main class="wrap prose">
 <h1>About this site</h1>
-<p>Galičica National Park has one of the best-marked trail networks in North Macedonia: {len(trails)} numbered trails with painted blazes and guideposts. Until about 2021 the park's website showed every one of them on an interactive map. Then the site was redesigned, the map's data feed went away, and the trail pages were left with an empty box where the map used to be. As far as we could find, the full set of lines wasn't published anywhere else. OpenStreetMap had 7 of the trails.</p>
-<p>The Internet Archive's Wayback Machine had saved a copy of the map's data feed in October 2020. This site is built from that copy. It holds the line of every H, T, G and MTB trail, and the park's ten suggested routes with their official length, time and difficulty.</p>
+<p>Galičica National Park has one of the best-marked trail networks in North Macedonia: {len(trails)} numbered trails with painted blazes and guideposts. Until about 2021 the park had every one of them on an interactive map on its website. Then the park redesigned the site, the map's data was left behind, and the trail pages have had an empty box where the map used to be ever since. As far as we could find, nobody else had published the full set of lines. Mappers had added 7 of the trails to OpenStreetMap.</p>
+<p>The Internet Archive's Wayback Machine had saved a copy of the map's data feed in October 2020, and we built this site from it. The copy has the line of every H, T, G and MTB trail, and the park's ten suggested routes with their official length, time and difficulty.</p>
 <h2>How we checked it</h2>
 <ul>
-<li>The trail totals match the park's 2021 to 2030 management plan: about 52 km of H, 57 km of T and 30 km of G trails.</li>
-<li>Where OpenStreetMap also has a trail (H-6, H-7, T-3, T-7, G-2, G-5 and G-6), the park's line and the OSM line agree to within 50 m for 95 to 100% of their length.</li>
-<li>G-6 to Magaro was the exception. The park drew the climb from the pass as a straight line, so G-6 here uses the OSM route instead.</li>
-<li>We walked T-3 above Velestovo with GPS on in October 2026. Our track sits a median 2 m from the park's line, and 90% of it is within 30 m. That's better than we expected from a line drawn on a map.</li>
+<li>The trail totals are the same as in the park's 2021 to 2030 management plan: about 52 km of H, 57 km of T and 30 km of G trails.</li>
+<li>Where OpenStreetMap also has a trail (H-6, H-7, T-3, T-7, G-2, G-5 and G-6), the park's line and the OSM line are within 50 m of each other for 95 to 100% of their length.</li>
+<li>G-6 to Magaro was the exception. The park drew the climb from the pass as a straight line, so for G-6 we used the OSM route instead.</li>
+<li>We walked T-3 above Velestovo with GPS on in October 2026. Our track is a median 2 m from the park's line, and 90% of it is within 30 m. That's better than we expected from a line drawn on a map.</li>
 </ul>
 <h2>What to keep in mind</h2>
 <ul>
 <li>The park's lines were drawn on a map, not recorded with GPS. Expect them to be 20 to 50 m off in places, especially in forest.</li>
-<li>They show the network as of 2020. Paths get overgrown and markings fade. A few trails, like the shore path toward St Zaum, are much harder to follow on the ground than on the map.</li>
+<li>They're the network as it was in 2020. Paths get overgrown and markings fade. A few trails, like the shore path toward St Zaum, are much harder to follow on the ground than on the map.</li>
 <li>Length and climb are measured on the lines with SRTM elevation data. Climb on steep slopes can be overstated.</li>
 <li>The park charges an entry fee per car on the Galičica pass road, and parts of the high ridge are a strict protection zone where you must stay on the trail.</li>
 </ul>
 <h2 id="license">Licensing and credit</h2>
-<p>The trail lines and route descriptions are the work of the public institution NP Galičica. We republish them, with credit, because they were made for the public and had otherwise vanished. If you represent the park and would like them presented differently, or want to host them again yourselves, please <a href="{REPO}/issues">open an issue</a> and we'll do whatever helps.</p>
-<p>Place names, guideposts and the G-6 line come from OpenStreetMap, © OpenStreetMap contributors, available under the <a href="https://opendatacommons.org/licenses/odbl/">Open Database License</a>. Map tiles are from <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA). The site's code is MIT licensed. Our own additions (translations, stats, write-ups) are CC-BY 4.0.</p>
+<p>The trail lines and route descriptions are the work of the public institution NP Galičica. We republish them, with credit, because the park made them for the public and nobody else had published them. If you represent the park and would like them presented differently, or want to host them again yourselves, please <a href="{REPO}/issues">open an issue</a> and we'll do whatever helps.</p>
+<p>Place names, guideposts and the G-6 line are from OpenStreetMap, © OpenStreetMap contributors, available under the <a href="https://opendatacommons.org/licenses/odbl/">Open Database License</a>. Map tiles are from <a href="https://opentopomap.org">OpenTopoMap</a> (CC-BY-SA). The site's code is MIT licensed. Our own additions (translations, stats, write-ups) are CC-BY 4.0.</p>
 <p>Because the trail lines come from the park rather than from a survey, they can't be copied into OpenStreetMap without the park's permission. If you walk a trail with GPS on, though, your own track can be added to OSM, and that's the best way to make these trails permanent.</p>
 <h2>Help keep it right</h2>
-<p>If you walk one of these trails and find the line wrong, a sign different, or the path gone, please <a href="{REPO}/issues">open an issue on GitHub</a> with what you found, and a GPX if you recorded one. All the data and the code that builds this site are in <a href="{REPO}">the repository</a>.</p>
+<p>If you walk one of these trails and find the line wrong, a sign different, or the path gone, please <a href="{REPO}/issues">open an issue on GitHub</a> with what you found, and a GPX if you recorded one. All the data and the code for this site are in <a href="{REPO}">the repository</a>.</p>
 <p>Made by Eli Finer, who spent autumn 2026 hiking around Ohrid with his family. Our family-sized hikes are at <a href="https://ohridhikes.finereli.com">ohridhikes.finereli.com</a>.</p>
 </main>"""
     page("about/index.html", "About the Galičica trails site: where the data comes from",
@@ -663,11 +663,11 @@ def build_llms(trails, routes):
              f"> Every marked trail in Galičica National Park (Галичица, also spelled Galicica or Galichica), North Macedonia, between Lake Ohrid and Lake Prespa. All {len(trails)} numbered trails (H easier, T harder, G ridges above 1,600 m, MTB bike) with maps, elevation profiles and free GPX, GeoJSON and KML downloads, plus the park's 10 suggested day routes.",
              "", "Key facts:",
              "- Free, no account, no ads. Open data and open source: " + REPO,
-             "- Source: the park's own web trail map (NP Galičica), archived by the Wayback Machine in October 2020, after the park's site lost the map. Cross-checked against OpenStreetMap (agrees within 50 m where both exist). G-6 uses OSM.",
-             "- Trail codes match the park's signposts and guideposts.",
+             "- Source: the park's own web trail map (NP Galičica), archived by the Wayback Machine in October 2020, before the park took the map down in a site redesign. Cross-checked against OpenStreetMap (within 50 m where both exist). The G-6 line is from OSM.",
+             "- Trail codes are the ones on the park's signposts and guideposts.",
              "- Lines were drawn by hand by the park, not GPS-recorded; expect 20 to 50 m error. Conditions are as of 2020.",
-             f"- All trails in one GPX: {BASE}/gpx/galicica-all-trails.gpx (works in AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Garmin)",
-             "- Recommended phone app: Organic Maps (https://organicmaps.app), free and open source, works offline (no signal on most of the mountain). Download the North Macedonia map on wifi, then open a trail's GPX with Organic Maps.",
+             f"- All trails in one GPX: {BASE}/gpx/galicica-all-trails.gpx (for AlpineQuest, OsmAnd, Gaia GPS, Locus, Organic Maps, Garmin)",
+             "- Recommended phone app: Organic Maps (https://organicmaps.app), free and open source, usable offline (no signal on most of the mountain). Download the North Macedonia map on wifi, then open a trail's GPX with Organic Maps.",
              f"- GeoJSON: {BASE}/data/galicica-trails.geojson   KML: {BASE}/data/galicica-trails.kml",
              "", "## Trails (code: from - to, length, ascent in the drawn direction, highest point)"]
     for t in trails:
@@ -685,7 +685,7 @@ def build_misc(trails, routes):
           + "".join(f"<url><loc>{BASE}{u}</loc><lastmod>{TODAY}</lastmod></url>\n" for u in urls) + "</urlset>\n")
     bots = ["OAI-SearchBot", "GPTBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User", "Google-Extended", "Applebot-Extended"]
     write("robots.txt", "User-agent: *\nAllow: /\n\n" + "".join(f"User-agent: {b}\nAllow: /\n\n" for b in bots) + f"Sitemap: {BASE}/sitemap.xml\n")
-    write("404.html", '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found | Galičica trails</title><link rel="stylesheet" href="/style.css"></head><body><main class="wrap prose"><h1>No such page</h1><p>That address doesn\'t match a trail or route. <a href="/">See all Galičica trails</a>.</p></main></body></html>')
+    write("404.html", '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Not found | Galičica trails</title><link rel="stylesheet" href="/style.css"></head><body><main class="wrap prose"><h1>No such page</h1><p>There\'s no trail or route at that address. <a href="/">See all Galičica trails</a>.</p></main></body></html>')
 
 def main():
     park, en, trails, pois = load()
