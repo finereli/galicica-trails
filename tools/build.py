@@ -24,10 +24,10 @@ REPO = "https://github.com/finereli/galicica-trails"
 TODAY = date.today().isoformat()
 
 KINDS = {
-    "H": dict(name="H trails", one="H trail", what="easier and shorter hiking trails", color="#C8202F", gpx="Red"),
-    "T": dict(name="T trails", one="T trail", what="harder and longer hiking trails, with more climbing", color="#1F7A3D", gpx="DarkGreen"),
-    "G": dict(name="G trails", one="G trail", what="high ridge trails above 1,600 m", color="#D4A20B", gpx="Yellow"),
-    "MTB": dict(name="MTB trails", one="MTB trail", what="mountain bike trails, some of them handy links between hiking routes", color="#24357F", gpx="DarkBlue"),
+    "H": dict(name="H trails", one="H trail", what="easier and shorter hiking trails", short="Easier hiking", color="#C8202F", gpx="Red"),
+    "T": dict(name="T trails", one="T trail", what="harder and longer hiking trails, with more climbing", short="Harder hiking", color="#1F7A3D", gpx="DarkGreen"),
+    "G": dict(name="G trails", one="G trail", what="high ridge trails above 1,600 m", short="High ridges", color="#D4A20B", gpx="Yellow"),
+    "MTB": dict(name="MTB trails", one="MTB trail", what="mountain bike trails, some of them handy links between hiking routes", short="Mountain bike", color="#24357F", gpx="DarkBlue"),
 }
 ORDER = ["H", "T", "G", "MTB"]
 
@@ -438,7 +438,7 @@ def build_index(trails, routes, pois):
     total = {k: sum(t["length"] for t in trails if t["kind"] == k) for k in ORDER}
     legend = "".join(
         f'<label class="lg"><input type="checkbox" checked data-kind="{k}"> {plate(k, link=False)}'
-        f'<span>{esc(KINDS[k]["what"].capitalize())}. {sum(1 for t in trails if t["kind"] == k)} trails, {total[k] / 1000:.0f} km.</span></label>' for k in ORDER)
+        f'<span class="lg-name">{esc(KINDS[k]["short"])}</span><span class="lg-n">{sum(1 for t in trails if t["kind"] == k)} trails, {total[k] / 1000:.0f} km</span></label>' for k in ORDER)
     sections = ""
     for k in ORDER:
         rows = "".join(trail_row(t) for t in trails if t["kind"] == k)
@@ -458,15 +458,15 @@ def build_index(trails, routes, pois):
   <div id="map" class="map map-hero" role="region" aria-label="Map of all marked trails in Galičica National Park"></div>
   <div class="hero-card">
     <h1>Every marked trail in Galičica National Park</h1>
-    <p class="lede">This is the full map of the {len(trails)} numbered trails between Lake Ohrid and Lake Prespa. The park's trail map has been missing from its website since 2021, and the trails were impossible to find in digital form. This is that map, rebuilt from a copy the Internet Archive saved in 2020 and thoroughly checked against OpenStreetMap. GPX files for your map app are available for download below.</p>
+    <p class="lede">This is the full map of the {len(trails)} numbered trails between Lake Ohrid and Lake Prespa, with a GPX file for your map app.</p>
     <div class="legend" aria-label="Trail types (tick to show on the map)">{legend}</div>
     <p class="cta"><a class="btn" href="/gpx/galicica-all-trails.gpx" download>Download all trails (GPX)</a> <a class="quiet" href="#phone">How to use it on your phone</a></p>
-    <p class="note">On a phone, open the file in <a href="https://organicmaps.app/">Organic Maps</a>: it's free and open source, and you can use it offline, which matters because there's no signal on most of the mountain.</p>
   </div>
 </section>
 
 <div class="wrap">
 <section class="intro">
+  <p>The park's trail map has been missing from its website since 2021, and the trails were impossible to find in digital form. This is that map, rebuilt from a copy the Internet Archive saved in 2020 and thoroughly checked against OpenStreetMap. On a phone, open the GPX in <a href="https://organicmaps.app/">Organic Maps</a>: it's free and open source, and you can use it offline, which matters because there's no signal on most of the mountain.</p>
   <p>Galičica (Галичица) is the limestone mountain between Ohrid and Prespa, a national park since 1958. The park marks its trails with codes you'll see painted on the signposts: <b>H</b> for the easier ones, <b>T</b> for the longer and steeper, <b>G</b> for the ridges above 1,600 m, and <b>MTB</b> for bike trails. The codes on this site are the ones on the signs.</p>
   <p class="mk" lang="mk">Сите обележани патеки на Националниот парк Галичица (H, T, G и MTB), со карта, висински профил и GPX за секоја патека. Податоците се од картата на патеки на Паркот од 2020 година.</p>
 </section>
