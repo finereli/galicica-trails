@@ -458,7 +458,7 @@ def build_index(trails, routes, pois):
   <div id="map" class="map map-hero" role="region" aria-label="Map of all marked trails in Galičica National Park"></div>
   <div class="hero-card">
     <h1>Every marked trail in Galičica National Park</h1>
-    <p class="lede">All {len(trails)} numbered trails on the mountain between Lake Ohrid and Lake Prespa, with a map, an elevation profile and a free GPX file for each. The park took its trail map down in a website redesign. This is that map, rebuilt from a copy the Internet Archive saved in 2020 and checked against OpenStreetMap.</p>
+    <p class="lede">This is the full map of the {len(trails)} numbered trails between Lake Ohrid and Lake Prespa. The park's trail map has been missing from its website since 2021, and the trails were impossible to find in digital form. This is that map, rebuilt from a copy the Internet Archive saved in 2020 and thoroughly checked against OpenStreetMap. GPX files for your map app are available for download below.</p>
     <div class="legend" aria-label="Trail types (tick to show on the map)">{legend}</div>
     <p class="cta"><a class="btn" href="/gpx/galicica-all-trails.gpx" download>Download all trails (GPX)</a> <a class="quiet" href="#phone">How to use it on your phone</a></p>
     <p class="note">On a phone, open the file in <a href="https://organicmaps.app/">Organic Maps</a>: it's free and open source, and you can use it offline, which matters because there's no signal on most of the mountain.</p>
